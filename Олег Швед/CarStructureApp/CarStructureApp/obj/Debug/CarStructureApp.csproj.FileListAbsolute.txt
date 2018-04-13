@@ -1,0 +1,13 @@
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\CarStructureApp.exe.config
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\CarStructureApp.exe
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\CarStructureApp.pdb
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.csprojResolveAssemblyReference.cache
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.AuthorizationForm.resources
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.MainMenuForm.resources
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.Properties.Resources.resources
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.RegistrationForm.resources
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.TheoryForm.resources
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.csproj.GenerateResource.Cache
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.csproj.CoreCompileInputs.cache
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.exe
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.pdb

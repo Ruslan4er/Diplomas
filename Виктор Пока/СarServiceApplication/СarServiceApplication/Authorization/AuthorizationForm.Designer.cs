@@ -47,6 +47,7 @@
             this.LoginButton.TabStop = false;
             this.LoginButton.Text = "Вход";
             this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
             // RegistrationLinkLabel
             // 
@@ -58,6 +59,7 @@
             this.RegistrationLinkLabel.TabIndex = 13;
             this.RegistrationLinkLabel.TabStop = true;
             this.RegistrationLinkLabel.Text = "Регистрация";
+            this.RegistrationLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.RegistrationLinkLabel_LinkClicked);
             // 
             // label3
             // 

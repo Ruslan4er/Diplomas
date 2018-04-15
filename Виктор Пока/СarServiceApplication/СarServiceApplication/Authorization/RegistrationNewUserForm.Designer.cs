@@ -142,6 +142,7 @@
             this.ExitButton.TabStop = false;
             this.ExitButton.Text = "Отмена";
             this.ExitButton.UseVisualStyleBackColor = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // CreateButton
             // 
@@ -152,6 +153,7 @@
             this.CreateButton.TabStop = false;
             this.CreateButton.Text = "Создать";
             this.CreateButton.UseVisualStyleBackColor = true;
+            this.CreateButton.Click += new System.EventHandler(this.CreateButton_Click);
             // 
             // RegistrationNewUserForm
             // 

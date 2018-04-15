@@ -1,0 +1,11 @@
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\bin\Debug\CarServiceDAL.dll.config
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\bin\Debug\CarServiceDAL.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\bin\Debug\CarServiceDAL.pdb
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\bin\Debug\EntityFramework.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\bin\Debug\EntityFramework.xml
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\obj\Debug\CarServiceDAL.csprojResolveAssemblyReference.cache
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\obj\Debug\CarServiceDAL.csproj.CoreCompileInputs.cache
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\obj\Debug\CarServiceDAL.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\CarServiceDAL\obj\Debug\CarServiceDAL.pdb

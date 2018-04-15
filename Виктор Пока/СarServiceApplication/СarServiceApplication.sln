@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "СarServiceApplication", "СarServiceApplication\СarServiceApplication.csproj", "{1779387E-9C92-494D-B259-A272B7E07EDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarServiceDAL", "CarServiceDAL\CarServiceDAL.csproj", "{F3FFE44D-4DAB-43CC-B9B8-9AE43D07FDC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1779387E-9C92-494D-B259-A272B7E07EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1779387E-9C92-494D-B259-A272B7E07EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1779387E-9C92-494D-B259-A272B7E07EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FFE44D-4DAB-43CC-B9B8-9AE43D07FDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FFE44D-4DAB-43CC-B9B8-9AE43D07FDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FFE44D-4DAB-43CC-B9B8-9AE43D07FDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FFE44D-4DAB-43CC-B9B8-9AE43D07FDC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

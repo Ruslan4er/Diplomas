@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.CarouselEllipsePath carouselEllipsePath2 = new Telerik.WinControls.UI.CarouselEllipsePath();
+            Telerik.WinControls.UI.CarouselEllipsePath carouselEllipsePath1 = new Telerik.WinControls.UI.CarouselEllipsePath();
             this.radCarousel1 = new Telerik.WinControls.UI.RadCarousel();
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.radPdfViewer1 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.button1 = new System.Windows.Forms.Button();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.radPdfViewer1 = new Telerik.WinControls.UI.RadPdfViewer();
             ((System.ComponentModel.ISupportInitialize)(this.radCarousel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
@@ -44,19 +45,23 @@
             this.splitPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radPdfViewer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radPdfViewer1)).BeginInit();
             this.SuspendLayout();
             // 
             // radCarousel1
             // 
-            carouselEllipsePath2.Center = new Telerik.WinControls.UI.Point3D(50D, 50D, 0D);
-            carouselEllipsePath2.FinalAngle = -100D;
-            carouselEllipsePath2.InitialAngle = -90D;
-            carouselEllipsePath2.U = new Telerik.WinControls.UI.Point3D(-20D, -17D, -50D);
-            carouselEllipsePath2.V = new Telerik.WinControls.UI.Point3D(30D, -25D, -60D);
-            carouselEllipsePath2.ZScale = 500D;
-            this.radCarousel1.CarouselPath = carouselEllipsePath2;
+            carouselEllipsePath1.Center = new Telerik.WinControls.UI.Point3D(50D, 50D, 0D);
+            carouselEllipsePath1.FinalAngle = -100D;
+            carouselEllipsePath1.InitialAngle = -90D;
+            carouselEllipsePath1.U = new Telerik.WinControls.UI.Point3D(-20D, -17D, -50D);
+            carouselEllipsePath1.V = new Telerik.WinControls.UI.Point3D(30D, -25D, -60D);
+            carouselEllipsePath1.ZScale = 500D;
+            this.radCarousel1.CarouselPath = carouselEllipsePath1;
             this.radCarousel1.Location = new System.Drawing.Point(281, 118);
             this.radCarousel1.Name = "radCarousel1";
             this.radCarousel1.Size = new System.Drawing.Size(240, 150);
@@ -81,8 +86,7 @@
             // 
             // splitPanel1
             // 
-            this.splitPanel1.Controls.Add(this.pictureBox1);
-            this.splitPanel1.Controls.Add(this.radPdfViewer1);
+            this.splitPanel1.Controls.Add(this.splitContainer1);
             this.splitPanel1.Location = new System.Drawing.Point(0, 0);
             this.splitPanel1.Name = "splitPanel1";
             // 
@@ -113,15 +117,6 @@
             this.splitPanel2.TabStop = false;
             this.splitPanel2.Text = "splitPanel2";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(176, 16);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 58);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(555, 16);
@@ -131,22 +126,49 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // radPdfViewer1
+            // button1
             // 
-            this.radPdfViewer1.Location = new System.Drawing.Point(430, 12);
-            this.radPdfViewer1.Name = "radPdfViewer1";
-            this.radPdfViewer1.Size = new System.Drawing.Size(392, 304);
-            this.radPdfViewer1.TabIndex = 0;
-            this.radPdfViewer1.ThumbnailsScaleFactor = 0.15F;
-            this.radPdfViewer1.ViewerMode = Telerik.WinControls.UI.FixedDocumentViewerMode.TextSelection;
+            this.button1.Location = new System.Drawing.Point(176, 16);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 58);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.radPdfViewer1);
+            this.splitContainer1.Size = new System.Drawing.Size(834, 339);
+            this.splitContainer1.SplitterDistance = 385;
+            this.splitContainer1.TabIndex = 0;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(305, 263);
-            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.Size = new System.Drawing.Size(385, 339);
+            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // radPdfViewer1
+            // 
+            this.radPdfViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radPdfViewer1.Location = new System.Drawing.Point(0, 0);
+            this.radPdfViewer1.Name = "radPdfViewer1";
+            this.radPdfViewer1.Size = new System.Drawing.Size(445, 339);
+            this.radPdfViewer1.TabIndex = 0;
+            this.radPdfViewer1.ThumbnailsScaleFactor = 0.15F;
             // 
             // TheoryForm
             // 
@@ -163,8 +185,12 @@
             this.splitPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radPdfViewer1)).EndInit();
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radPdfViewer1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -173,10 +199,11 @@
         private Telerik.WinControls.UI.RadCarousel radCarousel1;
         private Telerik.WinControls.UI.RadSplitContainer radSplitContainer1;
         private Telerik.WinControls.UI.SplitPanel splitPanel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private Telerik.WinControls.UI.RadPdfViewer radPdfViewer1;
         private Telerik.WinControls.UI.SplitPanel splitPanel2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Telerik.WinControls.UI.RadPdfViewer radPdfViewer1;
     }
 }

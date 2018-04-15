@@ -47,3 +47,10 @@ D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplic
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\CarServiceDAL.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\EntityFramework.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\CarServiceDAL.pdb
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\CarServiceDAL.dll.config
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\EntityFramework.xml
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\EntityFramework.SqlServer.xml

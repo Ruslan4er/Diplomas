@@ -17,7 +17,9 @@ namespace СarServiceApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AuthorizationForm());
+            //Application.Run(new AuthorizationForm());
+            Application.Run(new MainForm());
+
         }
     }
 }

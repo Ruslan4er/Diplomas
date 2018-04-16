@@ -15,9 +15,42 @@ namespace СarServiceApplication
         public MainForm()
         {
             InitializeComponent();
-            
+            TestPanel.Visible = false;
+            TheoryPanel.Visible = false;
         }
 
-      
+        private void TestsButton_Click(object sender, EventArgs e)
+        {
+            TestPanel.Visible = true;
+            TheoryPanel.Visible = false;
+        }
+
+        private void TheoryButton_Click(object sender, EventArgs e)
+        {
+            TestPanel.Visible = false;
+            TheoryPanel.Visible = true;
+        }
+
+        private void AccountButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var frm = new TheoryForm();
+            frm.ShowDialog();
+        }
+
+        private void linkLabel13_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var frm = new TestsForm();
+            frm.ShowDialog();
+        }
     }
 }

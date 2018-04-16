@@ -16,5 +16,17 @@ namespace СarServiceApplication
         {
             InitializeComponent();
         }
+
+        private void MainMenuButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void TestButton_Click(object sender, EventArgs e)
+        {
+            var frm = new TestsForm();
+            frm.ShowDialog();
+            Close();
+        }
     }
 }

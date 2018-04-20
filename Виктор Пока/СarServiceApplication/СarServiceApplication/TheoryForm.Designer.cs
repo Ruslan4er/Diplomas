@@ -33,11 +33,13 @@
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.BackPicButton = new System.Windows.Forms.Button();
+            this.NextPicButton = new System.Windows.Forms.Button();
+            this.TheoryPictureBox = new System.Windows.Forms.PictureBox();
+            this.TheoryPdfViewer = new Telerik.WinControls.UI.RadPdfViewer();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
-            this.TestButton = new System.Windows.Forms.Button();
             this.MainMenuButton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.radPdfViewer1 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.TestButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.radCarousel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
@@ -47,10 +49,10 @@
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
             this.splitPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radPdfViewer1)).BeginInit();
             this.SuspendLayout();
             // 
             // radCarousel1
@@ -108,14 +110,56 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
+            this.splitContainer1.Panel1.Controls.Add(this.BackPicButton);
+            this.splitContainer1.Panel1.Controls.Add(this.NextPicButton);
+            this.splitContainer1.Panel1.Controls.Add(this.TheoryPictureBox);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.radPdfViewer1);
+            this.splitContainer1.Panel2.Controls.Add(this.TheoryPdfViewer);
             this.splitContainer1.Size = new System.Drawing.Size(1350, 529);
-            this.splitContainer1.SplitterDistance = 623;
+            this.splitContainer1.SplitterDistance = 523;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // BackPicButton
+            // 
+            this.BackPicButton.Location = new System.Drawing.Point(57, 456);
+            this.BackPicButton.Name = "BackPicButton";
+            this.BackPicButton.Size = new System.Drawing.Size(150, 54);
+            this.BackPicButton.TabIndex = 3;
+            this.BackPicButton.Text = "Назад";
+            this.BackPicButton.UseVisualStyleBackColor = true;
+            this.BackPicButton.Click += new System.EventHandler(this.BackPicButton_Click);
+            // 
+            // NextPicButton
+            // 
+            this.NextPicButton.Location = new System.Drawing.Point(302, 456);
+            this.NextPicButton.Name = "NextPicButton";
+            this.NextPicButton.Size = new System.Drawing.Size(150, 54);
+            this.NextPicButton.TabIndex = 2;
+            this.NextPicButton.Text = "Вперед";
+            this.NextPicButton.UseVisualStyleBackColor = true;
+            this.NextPicButton.Click += new System.EventHandler(this.NextPicButton_Click);
+            // 
+            // TheoryPictureBox
+            // 
+            this.TheoryPictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TheoryPictureBox.Location = new System.Drawing.Point(12, 12);
+            this.TheoryPictureBox.Name = "TheoryPictureBox";
+            this.TheoryPictureBox.Size = new System.Drawing.Size(501, 422);
+            this.TheoryPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.TheoryPictureBox.TabIndex = 0;
+            this.TheoryPictureBox.TabStop = false;
+            // 
+            // TheoryPdfViewer
+            // 
+            this.TheoryPdfViewer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TheoryPdfViewer.Location = new System.Drawing.Point(0, 0);
+            this.TheoryPdfViewer.Name = "TheoryPdfViewer";
+            this.TheoryPdfViewer.Size = new System.Drawing.Size(823, 529);
+            this.TheoryPdfViewer.TabIndex = 0;
+            this.TheoryPdfViewer.ThumbnailsScaleFactor = 0.15F;
             // 
             // splitPanel2
             // 
@@ -134,16 +178,6 @@
             this.splitPanel2.TabStop = false;
             this.splitPanel2.Text = "splitPanel2";
             // 
-            // TestButton
-            // 
-            this.TestButton.Location = new System.Drawing.Point(737, 33);
-            this.TestButton.Name = "TestButton";
-            this.TestButton.Size = new System.Drawing.Size(208, 78);
-            this.TestButton.TabIndex = 1;
-            this.TestButton.Text = "Пройти тест";
-            this.TestButton.UseVisualStyleBackColor = true;
-            this.TestButton.Click += new System.EventHandler(this.TestButton_Click);
-            // 
             // MainMenuButton
             // 
             this.MainMenuButton.Location = new System.Drawing.Point(280, 33);
@@ -154,23 +188,15 @@
             this.MainMenuButton.UseVisualStyleBackColor = true;
             this.MainMenuButton.Click += new System.EventHandler(this.MainMenuButton_Click);
             // 
-            // pictureBox1
+            // TestButton
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(623, 529);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // radPdfViewer1
-            // 
-            this.radPdfViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radPdfViewer1.Location = new System.Drawing.Point(0, 0);
-            this.radPdfViewer1.Name = "radPdfViewer1";
-            this.radPdfViewer1.Size = new System.Drawing.Size(723, 529);
-            this.radPdfViewer1.TabIndex = 0;
-            this.radPdfViewer1.ThumbnailsScaleFactor = 0.15F;
+            this.TestButton.Location = new System.Drawing.Point(737, 33);
+            this.TestButton.Name = "TestButton";
+            this.TestButton.Size = new System.Drawing.Size(208, 78);
+            this.TestButton.TabIndex = 1;
+            this.TestButton.Text = "Пройти тест";
+            this.TestButton.UseVisualStyleBackColor = true;
+            this.TestButton.Click += new System.EventHandler(this.TestButton_Click);
             // 
             // TheoryForm
             // 
@@ -190,10 +216,10 @@
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radPdfViewer1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -206,7 +232,9 @@
         private System.Windows.Forms.Button TestButton;
         private System.Windows.Forms.Button MainMenuButton;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private Telerik.WinControls.UI.RadPdfViewer radPdfViewer1;
+        private System.Windows.Forms.PictureBox TheoryPictureBox;
+        private Telerik.WinControls.UI.RadPdfViewer TheoryPdfViewer;
+        private System.Windows.Forms.Button BackPicButton;
+        private System.Windows.Forms.Button NextPicButton;
     }
 }

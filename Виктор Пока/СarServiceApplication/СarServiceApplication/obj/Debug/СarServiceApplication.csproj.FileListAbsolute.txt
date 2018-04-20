@@ -55,3 +55,4 @@ D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplic
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\EntityFramework.xml
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\EntityFramework.SqlServer.xml
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\obj\Debug\СarServiceApplication.TestsForm.resources
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\Telerik.WinControls.Themes.MaterialBlueGrey.dll

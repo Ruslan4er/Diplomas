@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CarServiceDAL;
 
 namespace СarServiceApplication
 {
@@ -34,7 +35,7 @@ namespace СarServiceApplication
 
         private void AccountButton_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
@@ -46,13 +47,13 @@ namespace СarServiceApplication
 
         private static void ShowForm(string path, string[] imagePath)
         {
-            var frm = new TheoryForm(path,imagePath);
+            var frm = new TheoryForm(path, imagePath);
             frm.ShowDialog();
         }
 
         private void Chapter1LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowForm(TheoryContainer.ChaptersList[0],TheoryContainer.Pictures[0]);
+            ShowForm(TheoryContainer.ChaptersList[0], TheoryContainer.Pictures[0]);
         }
 
         private void Chapter2LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -94,5 +95,16 @@ namespace СarServiceApplication
         {
             ShowForm(TheoryContainer.ChaptersList[8], TheoryContainer.Pictures[8]);
         }
+
+        private void OpenTestForm(int chapterId)
+        {
+            using (var data = new CarServiceDBEntities())
+            {
+                //var chapter = data.
+                var frm = new TestsForm(1);
+                frm.ShowDialog();
+            }
+        }
+        
     }
 }

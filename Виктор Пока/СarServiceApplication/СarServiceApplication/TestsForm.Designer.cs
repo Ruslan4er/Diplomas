@@ -30,28 +30,27 @@
         {
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
-            this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.NextQuestionButton = new System.Windows.Forms.Button();
+            this.QuestionLabel = new System.Windows.Forms.Label();
+            this.QuestionCounterLabel = new System.Windows.Forms.Label();
+            this.Answer3RadioButton = new System.Windows.Forms.RadioButton();
+            this.Answer2RadioButton = new System.Windows.Forms.RadioButton();
+            this.Answer1RadioButton = new System.Windows.Forms.RadioButton();
+            this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
             this.splitPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
-            this.splitPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).BeginInit();
+            this.splitPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // radSplitContainer1
@@ -86,6 +85,98 @@
             this.splitPanel1.TabStop = false;
             this.splitPanel1.Text = "splitPanel1";
             // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.NextQuestionButton);
+            this.splitContainer1.Panel2.Controls.Add(this.QuestionLabel);
+            this.splitContainer1.Panel2.Controls.Add(this.QuestionCounterLabel);
+            this.splitContainer1.Panel2.Controls.Add(this.Answer3RadioButton);
+            this.splitContainer1.Panel2.Controls.Add(this.Answer2RadioButton);
+            this.splitContainer1.Panel2.Controls.Add(this.Answer1RadioButton);
+            this.splitContainer1.Size = new System.Drawing.Size(1350, 529);
+            this.splitContainer1.SplitterDistance = 450;
+            this.splitContainer1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(450, 529);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // NextQuestionButton
+            // 
+            this.NextQuestionButton.Location = new System.Drawing.Point(176, 419);
+            this.NextQuestionButton.Name = "NextQuestionButton";
+            this.NextQuestionButton.Size = new System.Drawing.Size(75, 23);
+            this.NextQuestionButton.TabIndex = 7;
+            this.NextQuestionButton.Text = "Далее";
+            this.NextQuestionButton.UseVisualStyleBackColor = true;
+            this.NextQuestionButton.Click += new System.EventHandler(this.NextQuestionButton_Click);
+            // 
+            // QuestionLabel
+            // 
+            this.QuestionLabel.AutoSize = true;
+            this.QuestionLabel.Location = new System.Drawing.Point(35, 177);
+            this.QuestionLabel.Name = "QuestionLabel";
+            this.QuestionLabel.Size = new System.Drawing.Size(82, 13);
+            this.QuestionLabel.TabIndex = 6;
+            this.QuestionLabel.Text = "Текст вопроса";
+            // 
+            // QuestionCounterLabel
+            // 
+            this.QuestionCounterLabel.AutoSize = true;
+            this.QuestionCounterLabel.Location = new System.Drawing.Point(199, 37);
+            this.QuestionCounterLabel.Name = "QuestionCounterLabel";
+            this.QuestionCounterLabel.Size = new System.Drawing.Size(86, 13);
+            this.QuestionCounterLabel.TabIndex = 5;
+            this.QuestionCounterLabel.Text = "Вопрос 1 из 10";
+            // 
+            // Answer3RadioButton
+            // 
+            this.Answer3RadioButton.AutoSize = true;
+            this.Answer3RadioButton.Location = new System.Drawing.Point(176, 316);
+            this.Answer3RadioButton.Name = "Answer3RadioButton";
+            this.Answer3RadioButton.Size = new System.Drawing.Size(94, 17);
+            this.Answer3RadioButton.TabIndex = 3;
+            this.Answer3RadioButton.TabStop = true;
+            this.Answer3RadioButton.Text = "radioButton3";
+            this.Answer3RadioButton.UseVisualStyleBackColor = true;
+            // 
+            // Answer2RadioButton
+            // 
+            this.Answer2RadioButton.AutoSize = true;
+            this.Answer2RadioButton.Location = new System.Drawing.Point(176, 284);
+            this.Answer2RadioButton.Name = "Answer2RadioButton";
+            this.Answer2RadioButton.Size = new System.Drawing.Size(94, 17);
+            this.Answer2RadioButton.TabIndex = 2;
+            this.Answer2RadioButton.TabStop = true;
+            this.Answer2RadioButton.Text = "radioButton2";
+            this.Answer2RadioButton.UseVisualStyleBackColor = true;
+            // 
+            // Answer1RadioButton
+            // 
+            this.Answer1RadioButton.AutoSize = true;
+            this.Answer1RadioButton.Location = new System.Drawing.Point(176, 251);
+            this.Answer1RadioButton.Name = "Answer1RadioButton";
+            this.Answer1RadioButton.Size = new System.Drawing.Size(94, 17);
+            this.Answer1RadioButton.TabIndex = 1;
+            this.Answer1RadioButton.TabStop = true;
+            this.Answer1RadioButton.Text = "radioButton1";
+            this.Answer1RadioButton.UseVisualStyleBackColor = true;
+            // 
             // splitPanel2
             // 
             this.splitPanel2.Controls.Add(this.button2);
@@ -102,109 +193,6 @@
             this.splitPanel2.TabStop = false;
             this.splitPanel2.Text = "splitPanel2";
             // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.button1);
-            this.splitContainer1.Panel2.Controls.Add(this.label2);
-            this.splitContainer1.Panel2.Controls.Add(this.label1);
-            this.splitContainer1.Panel2.Controls.Add(this.radioButton4);
-            this.splitContainer1.Panel2.Controls.Add(this.radioButton3);
-            this.splitContainer1.Panel2.Controls.Add(this.radioButton2);
-            this.splitContainer1.Panel2.Controls.Add(this.radioButton1);
-            this.splitContainer1.Size = new System.Drawing.Size(1350, 529);
-            this.splitContainer1.SplitterDistance = 450;
-            this.splitContainer1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(450, 529);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(176, 251);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(94, 17);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(176, 284);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(94, 17);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(176, 316);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(94, 17);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(176, 348);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(94, 17);
-            this.radioButton4.TabIndex = 4;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(243, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Вопрос 1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(173, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Текст вопроса";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(176, 419);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Далее";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(410, 55);
@@ -213,7 +201,7 @@
             this.button2.TabIndex = 0;
             this.button2.Text = "В меню";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // TestsForm
             // 
@@ -228,14 +216,14 @@
             this.radSplitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).EndInit();
             this.splitPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
-            this.splitPanel2.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
+            this.splitPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -247,13 +235,12 @@
         private Telerik.WinControls.UI.SplitPanel splitPanel2;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button NextQuestionButton;
+        private System.Windows.Forms.Label QuestionLabel;
+        private System.Windows.Forms.Label QuestionCounterLabel;
+        private System.Windows.Forms.RadioButton Answer3RadioButton;
+        private System.Windows.Forms.RadioButton Answer2RadioButton;
+        private System.Windows.Forms.RadioButton Answer1RadioButton;
         private System.Windows.Forms.Button button2;
     }
 }

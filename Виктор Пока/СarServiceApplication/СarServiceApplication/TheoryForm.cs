@@ -38,7 +38,7 @@ namespace СarServiceApplication
 
         private void TestButton_Click(object sender, EventArgs e)
         {
-            var frm = new TestsForm();
+            var frm = new TestsForm(2);
             frm.ShowDialog();
             Close();
         }

@@ -89,7 +89,6 @@
     <Compile Include="Authorization\RegistrationNewUserForm.Designer.cs">
       <DependentUpon>RegistrationNewUserForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Picture.cs" />
     <Compile Include="TheoryContainer.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>

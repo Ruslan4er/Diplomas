@@ -5,9 +5,17 @@
       <EntityTypeMapping TypeName="CarServiceDBModel.Answer">
         <MappingFragment StoreEntitySet="Answers">
           <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="IsCorrect" ColumnName="IsCorrect" />
           <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="IsCorrect" ColumnName="IsCorrect" />
           <ScalarProperty Name="QuestionId" ColumnName="QuestionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chapters">
+      <EntityTypeMapping TypeName="CarServiceDBModel.Chapter">
+        <MappingFragment StoreEntitySet="Chapters">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -16,6 +24,7 @@
         <MappingFragment StoreEntitySet="Questions">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ChapterId" ColumnName="ChapterId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

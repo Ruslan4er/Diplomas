@@ -67,6 +67,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CarServiceDBModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Chapter.cs">
+      <DependentUpon>CarServiceDBModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Question.cs">
       <DependentUpon>CarServiceDBModel.tt</DependentUpon>
@@ -99,6 +102,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="CarServiceDBModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>CarServiceDBModel.edmx</DependentUpon>
@@ -109,9 +115,6 @@
       <DependentUpon>CarServiceDBModel.edmx</DependentUpon>
       <LastGenOutput>CarServiceDBModel.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

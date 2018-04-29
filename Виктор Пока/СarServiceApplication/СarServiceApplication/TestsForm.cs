@@ -24,7 +24,11 @@ namespace СarServiceApplication
         {
             InitializeComponent();
             FillData(chapterId);
-            NextQuestion();
+            if (questions.Count != 0)
+                NextQuestion();
+            else
+                NextQuestionButton.Enabled = false;
+            
         }
 
         private void FillData(int chapterId)
@@ -59,7 +63,7 @@ namespace СarServiceApplication
             if (Answer3RadioButton.Checked && Answer3RadioButton.Text == correctAnswer.Text)
                 correctAnswers++;
 
-           
+
             Answer1RadioButton.Checked = false;
             Answer2RadioButton.Checked = false;
             Answer3RadioButton.Checked = false;
@@ -67,13 +71,17 @@ namespace СarServiceApplication
 
         private void NextQuestion()
         {
-            if (questionId == questions.Count - 1)
+            if (questionId == questions.Count )
             {
                 NextQuestionButton.Enabled = false;
                 QuestionLabel.Text = $@"Правильных ответов - {correctAnswers}";
+                Answer1RadioButton.Hide();
+                Answer2RadioButton.Hide();
+                Answer3RadioButton.Hide();
+
                 return;
             }
-            if (questionId == questions.Count - 2)
+            if (questionId == questions.Count - 1)
                 NextQuestionButton.Text = @"Завершить";
 
             QuestionLabel.Text = questions[questionId].Text;

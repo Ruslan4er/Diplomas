@@ -14,13 +14,18 @@ namespace СarServiceApplication
     {
         private readonly string[] _picturesPassArray;
         private int currentPicture;
+        private readonly int chapterId;
 
-        public TheoryForm(string path, string[] pictures)
+        public TheoryForm(string path, string[] pictures,int chapterId)
         {
             InitializeComponent();
             LoadDoc(path);
             _picturesPassArray = pictures;
+            this.chapterId = chapterId;
             TheoryPictureBox.Image = Image.FromFile(pictures[0]);
+
+            splitContainer1.IsSplitterFixed = true;
+            TheoryPdfViewer.EnableThumbnails = false;
         }
 
         private void ShowPicture(string[] picturesPassArray)
@@ -38,7 +43,7 @@ namespace СarServiceApplication
 
         private void TestButton_Click(object sender, EventArgs e)
         {
-            var frm = new TestsForm(2);
+            var frm = new TestsForm(chapterId);
             frm.ShowDialog();
             Close();
         }

@@ -15,6 +15,7 @@ namespace CarStructureApp
         public TheoryForm()
         {
             InitializeComponent();
+            splitContainer1.IsSplitterFixed = true;
         }
     }
 }

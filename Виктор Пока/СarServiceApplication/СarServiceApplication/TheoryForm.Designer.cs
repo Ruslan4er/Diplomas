@@ -123,7 +123,8 @@
             // 
             // BackPicButton
             // 
-            this.BackPicButton.Location = new System.Drawing.Point(57, 456);
+            this.BackPicButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BackPicButton.Location = new System.Drawing.Point(54, 449);
             this.BackPicButton.Name = "BackPicButton";
             this.BackPicButton.Size = new System.Drawing.Size(150, 54);
             this.BackPicButton.TabIndex = 3;
@@ -133,7 +134,8 @@
             // 
             // NextPicButton
             // 
-            this.NextPicButton.Location = new System.Drawing.Point(302, 456);
+            this.NextPicButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextPicButton.Location = new System.Drawing.Point(299, 449);
             this.NextPicButton.Name = "NextPicButton";
             this.NextPicButton.Size = new System.Drawing.Size(150, 54);
             this.NextPicButton.TabIndex = 2;
@@ -180,6 +182,7 @@
             // 
             // MainMenuButton
             // 
+            this.MainMenuButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuButton.Location = new System.Drawing.Point(280, 33);
             this.MainMenuButton.Name = "MainMenuButton";
             this.MainMenuButton.Size = new System.Drawing.Size(208, 78);
@@ -190,6 +193,7 @@
             // 
             // TestButton
             // 
+            this.TestButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TestButton.Location = new System.Drawing.Point(737, 33);
             this.TestButton.Name = "TestButton";
             this.TestButton.Size = new System.Drawing.Size(208, 78);

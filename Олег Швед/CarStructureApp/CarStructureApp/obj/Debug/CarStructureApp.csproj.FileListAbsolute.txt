@@ -24,7 +24,6 @@ D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarSt
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\TelerikCommon.dll
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\Telerik.WinControls.xml
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\Telerik.WinControls.UI.xml
-D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.Form1.resources
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.exe.licenses
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\Telerik.WinControls.Themes.Desert.dll
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\Telerik.WinControls.Themes.Office2010Silver.dll

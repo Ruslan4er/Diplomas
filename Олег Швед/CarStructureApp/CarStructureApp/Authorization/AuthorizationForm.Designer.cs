@@ -40,35 +40,39 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 59);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(27, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(50, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "Логин";
             // 
             // LoginTextBox
             // 
-            this.LoginTextBox.Location = new System.Drawing.Point(89, 56);
+            this.LoginTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginTextBox.Location = new System.Drawing.Point(94, 57);
             this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.Size = new System.Drawing.Size(100, 20);
+            this.LoginTextBox.Size = new System.Drawing.Size(131, 24);
             this.LoginTextBox.TabIndex = 1;
             // 
             // RegistrationLinkLabel
             // 
             this.RegistrationLinkLabel.AutoSize = true;
-            this.RegistrationLinkLabel.Location = new System.Drawing.Point(134, 161);
+            this.RegistrationLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RegistrationLinkLabel.Location = new System.Drawing.Point(91, 175);
             this.RegistrationLinkLabel.Name = "RegistrationLinkLabel";
-            this.RegistrationLinkLabel.Size = new System.Drawing.Size(72, 13);
-            this.RegistrationLinkLabel.TabIndex = 2;
+            this.RegistrationLinkLabel.Size = new System.Drawing.Size(95, 18);
+            this.RegistrationLinkLabel.TabIndex = 4;
             this.RegistrationLinkLabel.TabStop = true;
             this.RegistrationLinkLabel.Text = "Регистрация";
             this.RegistrationLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.RegistrationLinkLabel_LinkClicked);
             // 
             // AuthorizationButton
             // 
-            this.AuthorizationButton.Location = new System.Drawing.Point(40, 156);
+            this.AuthorizationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AuthorizationButton.Location = new System.Drawing.Point(51, 138);
             this.AuthorizationButton.Name = "AuthorizationButton";
-            this.AuthorizationButton.Size = new System.Drawing.Size(75, 23);
+            this.AuthorizationButton.Size = new System.Drawing.Size(162, 34);
             this.AuthorizationButton.TabIndex = 3;
             this.AuthorizationButton.Text = "Вход";
             this.AuthorizationButton.UseVisualStyleBackColor = true;
@@ -76,34 +80,39 @@
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(89, 98);
+            this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordTextBox.Location = new System.Drawing.Point(94, 99);
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(100, 20);
-            this.PasswordTextBox.TabIndex = 5;
+            this.PasswordTextBox.Size = new System.Drawing.Size(131, 24);
+            this.PasswordTextBox.TabIndex = 2;
+            this.PasswordTextBox.UseSystemPasswordChar = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(37, 101);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(27, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.Size = new System.Drawing.Size(61, 18);
             this.label2.TabIndex = 4;
             this.label2.Text = "Пароль";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(69, 21);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(75, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 13);
+            this.label3.Size = new System.Drawing.Size(120, 20);
             this.label3.TabIndex = 6;
             this.label3.Text = "Авторизация";
             // 
             // AuthorizationForm
             // 
+            this.AcceptButton = this.AuthorizationButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(227, 196);
+            this.ClientSize = new System.Drawing.Size(259, 211);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.label2);
@@ -111,8 +120,12 @@
             this.Controls.Add(this.RegistrationLinkLabel);
             this.Controls.Add(this.LoginTextBox);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(275, 250);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(275, 250);
             this.Name = "AuthorizationForm";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 

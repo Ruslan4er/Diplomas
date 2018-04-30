@@ -4,14 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="bf33b1235b1a4b44ae0e60cc1a24fa4d" Name="Diagram1">
-        <EntityTypeShape EntityType="СarStructureDBModel.Answer" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="СarStructureDBModel.Question" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="СarStructureDBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="СarStructureDBModel.TestResult" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="СarStructureDBModel.UserProfile" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="СarStructureDBModel.User" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+      <Diagram DiagramId="dde5cee39c29429a97fdcb5a036370bf" Name="Diagram1">
+        <EntityTypeShape EntityType="СarStructureDBModel.Answer" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="СarStructureDBModel.Chapter" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="СarStructureDBModel.Question" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="СarStructureDBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="СarStructureDBModel.TestResult" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="СarStructureDBModel.UserProfile" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="СarStructureDBModel.User" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
         <AssociationConnector Association="СarStructureDBModel.FK_Answers_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="СarStructureDBModel.FK_Questions_Chapters" ManuallyRouted="false" />
         <AssociationConnector Association="СarStructureDBModel.FK_UserProfile_Users" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>

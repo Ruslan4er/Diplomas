@@ -86,6 +86,18 @@
     <Compile Include="Authorization\RegistrationForm.Designer.cs">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestingMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestingMenuForm.Designer.cs">
+      <DependentUpon>TestingMenuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TheoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +122,12 @@
     </Compile>
     <EmbeddedResource Include="Authorization\RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestingMenuForm.resx">
+      <DependentUpon>TestingMenuForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TheoryForm.resx">
       <DependentUpon>TheoryForm.cs</DependentUpon>

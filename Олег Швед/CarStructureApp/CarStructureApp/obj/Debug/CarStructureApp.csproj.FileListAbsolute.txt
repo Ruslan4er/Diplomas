@@ -38,3 +38,5 @@ D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarSt
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\Telerik.Windows.Documents.Core.xml
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\Telerik.Windows.Documents.Fixed.xml
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\Telerik.Windows.Zip.xml
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.TestForm.resources
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.TestingMenuForm.resources

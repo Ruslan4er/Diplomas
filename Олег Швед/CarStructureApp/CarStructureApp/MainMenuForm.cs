@@ -16,5 +16,17 @@ namespace CarStructureApp
         {
             InitializeComponent();
         }
+
+        private void OpenChaptersFormLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var frm = new TheoryForm();
+            frm.ShowDialog();
+        }
+
+        private void OpenTestingFormLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var frm = new TestingMenuForm();
+            frm.ShowDialog();
+        }
     }
 }

@@ -11,6 +11,7 @@ namespace CarStructureApp.Authorization
         public AuthorizationForm()
         {
             InitializeComponent();
+            Аuthorization("22", "22");
         }
 
         private void AuthorizationButton_Click(object sender, EventArgs e)
@@ -19,7 +20,6 @@ namespace CarStructureApp.Authorization
             var password = PasswordTextBox.Text;
             var task = new Task<bool>(() => Аuthorization(login, password));
             task.Start();
-            //if (!Аuthorization(login, password))
             if (!task.Result)
                 MessageBox.Show(@"Такой пользователь не найден");
             else
@@ -41,14 +41,12 @@ namespace CarStructureApp.Authorization
                 : @"Регистрация отменена");
         }
 
-        private bool Аuthorization(string login, string password)
+        private static bool Аuthorization(string login, string password)
         {
             using (var context = new СarStructureDBEntities())
             {
                 var user = context.Users.FirstOrDefault(u => u.Login == login);
-                if (user == null || user.Password != password) return false;
-                //_userName = user.UserInformation.Name;
-                return true;
+                return user != null && user.Password == password;
             }
         }
     }

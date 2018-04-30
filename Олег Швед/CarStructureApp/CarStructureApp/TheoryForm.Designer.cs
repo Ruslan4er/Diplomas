@@ -29,18 +29,25 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.ExitToMainManuButton = new System.Windows.Forms.Button();
+            this.Topic6LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Topic5LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Topic4LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Topic9LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Topic8LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Topic7LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Topic3LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Topic2LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Topic1LinkLabel = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.TheoryPdfViewer = new Telerik.WinControls.UI.RadPdfViewer();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -51,105 +58,193 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.linkLabel4);
-            this.splitContainer1.Panel1.Controls.Add(this.linkLabel5);
-            this.splitContainer1.Panel1.Controls.Add(this.linkLabel6);
-            this.splitContainer1.Panel1.Controls.Add(this.linkLabel3);
-            this.splitContainer1.Panel1.Controls.Add(this.linkLabel2);
-            this.splitContainer1.Panel1.Controls.Add(this.linkLabel1);
+            this.splitContainer1.Panel1.Controls.Add(this.ExitToMainManuButton);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic6LinkLabel);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic5LinkLabel);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic4LinkLabel);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic9LinkLabel);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic8LinkLabel);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic7LinkLabel);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic3LinkLabel);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic2LinkLabel);
+            this.splitContainer1.Panel1.Controls.Add(this.Topic1LinkLabel);
             this.splitContainer1.Panel1.Controls.Add(this.label6);
             this.splitContainer1.Panel1.Controls.Add(this.label5);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.TheoryPdfViewer);
             this.splitContainer1.Size = new System.Drawing.Size(1350, 681);
-            this.splitContainer1.SplitterDistance = 271;
+            this.splitContainer1.SplitterDistance = 280;
             this.splitContainer1.TabIndex = 1;
             // 
-            // linkLabel4
+            // ExitToMainManuButton
             // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Location = new System.Drawing.Point(46, 328);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(55, 13);
-            this.linkLabel4.TabIndex = 17;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "linkLabel4";
+            this.ExitToMainManuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitToMainManuButton.Location = new System.Drawing.Point(55, 607);
+            this.ExitToMainManuButton.Name = "ExitToMainManuButton";
+            this.ExitToMainManuButton.Size = new System.Drawing.Size(164, 51);
+            this.ExitToMainManuButton.TabIndex = 21;
+            this.ExitToMainManuButton.Text = "В меню";
+            this.ExitToMainManuButton.UseVisualStyleBackColor = true;
+            this.ExitToMainManuButton.Click += new System.EventHandler(this.ExitToMainManuButton_Click);
             // 
-            // linkLabel5
+            // Topic6LinkLabel
             // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Location = new System.Drawing.Point(46, 302);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(55, 13);
-            this.linkLabel5.TabIndex = 16;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "linkLabel5";
+            this.Topic6LinkLabel.AutoSize = true;
+            this.Topic6LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic6LinkLabel.Location = new System.Drawing.Point(12, 324);
+            this.Topic6LinkLabel.Name = "Topic6LinkLabel";
+            this.Topic6LinkLabel.Size = new System.Drawing.Size(241, 40);
+            this.Topic6LinkLabel.TabIndex = 20;
+            this.Topic6LinkLabel.TabStop = true;
+            this.Topic6LinkLabel.Text = "ТЕХНИЧЕСКОЕ ОБСЛУЖИВА-\r\nНИЕ МЕХАНИЗМОВ";
+            this.Topic6LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic6LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic6LinkLabel_LinkClicked);
             // 
-            // linkLabel6
+            // Topic5LinkLabel
             // 
-            this.linkLabel6.AutoSize = true;
-            this.linkLabel6.Location = new System.Drawing.Point(43, 273);
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(55, 13);
-            this.linkLabel6.TabIndex = 15;
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.Text = "linkLabel6";
+            this.Topic5LinkLabel.AutoSize = true;
+            this.Topic5LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic5LinkLabel.Location = new System.Drawing.Point(12, 289);
+            this.Topic5LinkLabel.Name = "Topic5LinkLabel";
+            this.Topic5LinkLabel.Size = new System.Drawing.Size(247, 20);
+            this.Topic5LinkLabel.TabIndex = 19;
+            this.Topic5LinkLabel.TabStop = true;
+            this.Topic5LinkLabel.Text = "ОБСЛУЖИВАНИЕ ДВИГАТЕЛЯ";
+            this.Topic5LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic5LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic5LinkLabel_LinkClicked);
             // 
-            // linkLabel3
+            // Topic4LinkLabel
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(46, 163);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(55, 13);
-            this.linkLabel3.TabIndex = 14;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "linkLabel3";
+            this.Topic4LinkLabel.AutoSize = true;
+            this.Topic4LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic4LinkLabel.Location = new System.Drawing.Point(12, 248);
+            this.Topic4LinkLabel.Name = "Topic4LinkLabel";
+            this.Topic4LinkLabel.Size = new System.Drawing.Size(207, 20);
+            this.Topic4LinkLabel.TabIndex = 18;
+            this.Topic4LinkLabel.TabStop = true;
+            this.Topic4LinkLabel.Text = "СИСТЕМА ОХЛАЖДЕНИЯ";
+            this.Topic4LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic4LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic4LinkLabel_LinkClicked);
             // 
-            // linkLabel2
+            // Topic9LinkLabel
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(46, 137);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(55, 13);
-            this.linkLabel2.TabIndex = 13;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "linkLabel2";
+            this.Topic9LinkLabel.AutoSize = true;
+            this.Topic9LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic9LinkLabel.Location = new System.Drawing.Point(12, 517);
+            this.Topic9LinkLabel.Name = "Topic9LinkLabel";
+            this.Topic9LinkLabel.Size = new System.Drawing.Size(170, 40);
+            this.Topic9LinkLabel.TabIndex = 17;
+            this.Topic9LinkLabel.TabStop = true;
+            this.Topic9LinkLabel.Text = "ПРИБОРЫ \r\nСИСТЕМЫ ПИТАНИЯ";
+            this.Topic9LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic9LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic9LinkLabel_LinkClicked);
             // 
-            // linkLabel1
+            // Topic8LinkLabel
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(43, 108);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(55, 13);
-            this.linkLabel1.TabIndex = 12;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "linkLabel1";
+            this.Topic8LinkLabel.AutoSize = true;
+            this.Topic8LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic8LinkLabel.Location = new System.Drawing.Point(12, 463);
+            this.Topic8LinkLabel.Name = "Topic8LinkLabel";
+            this.Topic8LinkLabel.Size = new System.Drawing.Size(202, 40);
+            this.Topic8LinkLabel.TabIndex = 16;
+            this.Topic8LinkLabel.TabStop = true;
+            this.Topic8LinkLabel.Text = "УСТРОЙСТВО И РАБОТА \r\nКАРБЮРАТОРА";
+            this.Topic8LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic8LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic8LinkLabel_LinkClicked);
+            // 
+            // Topic7LinkLabel
+            // 
+            this.Topic7LinkLabel.AutoSize = true;
+            this.Topic7LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic7LinkLabel.Location = new System.Drawing.Point(12, 410);
+            this.Topic7LinkLabel.Name = "Topic7LinkLabel";
+            this.Topic7LinkLabel.Size = new System.Drawing.Size(202, 40);
+            this.Topic7LinkLabel.TabIndex = 15;
+            this.Topic7LinkLabel.TabStop = true;
+            this.Topic7LinkLabel.Text = "УСТРОЙСТВО СИСТЕМЫ \r\nПИТАНИЯ";
+            this.Topic7LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic7LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic7LinkLabel_LinkClicked);
+            // 
+            // Topic3LinkLabel
+            // 
+            this.Topic3LinkLabel.AutoSize = true;
+            this.Topic3LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic3LinkLabel.Location = new System.Drawing.Point(12, 187);
+            this.Topic3LinkLabel.Name = "Topic3LinkLabel";
+            this.Topic3LinkLabel.Size = new System.Drawing.Size(245, 40);
+            this.Topic3LinkLabel.TabIndex = 14;
+            this.Topic3LinkLabel.TabStop = true;
+            this.Topic3LinkLabel.Text = "ГАЗОРАСПРЕДЕЛИТЕЛЬНЫЙ \r\nМЕХАНИЗМ";
+            this.Topic3LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic3LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic3LinkLabel_LinkClicked);
+            // 
+            // Topic2LinkLabel
+            // 
+            this.Topic2LinkLabel.AutoSize = true;
+            this.Topic2LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic2LinkLabel.Location = new System.Drawing.Point(12, 130);
+            this.Topic2LinkLabel.Name = "Topic2LinkLabel";
+            this.Topic2LinkLabel.Size = new System.Drawing.Size(223, 40);
+            this.Topic2LinkLabel.TabIndex = 13;
+            this.Topic2LinkLabel.TabStop = true;
+            this.Topic2LinkLabel.Text = "КРИВОШИПНО-ШАТУННЫЙ \r\nМЕХАНИЗМ";
+            this.Topic2LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic2LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic2LinkLabel_LinkClicked);
+            // 
+            // Topic1LinkLabel
+            // 
+            this.Topic1LinkLabel.AutoSize = true;
+            this.Topic1LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic1LinkLabel.Location = new System.Drawing.Point(10, 73);
+            this.Topic1LinkLabel.Name = "Topic1LinkLabel";
+            this.Topic1LinkLabel.Size = new System.Drawing.Size(238, 40);
+            this.Topic1LinkLabel.TabIndex = 12;
+            this.Topic1LinkLabel.TabStop = true;
+            this.Topic1LinkLabel.Text = "ОБЩЕЕ УСТРОЙСТВО И \r\nРАБОЧИЙ ЦИКЛ ДВИГАТЕЛЯ";
+            this.Topic1LinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Topic1LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Topic1LinkLabel_LinkClicked);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(40, 242);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(12, 378);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(43, 13);
+            this.label6.Size = new System.Drawing.Size(98, 24);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Тема 2";
+            this.label6.Text = "Раздел 2";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(37, 78);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(12, 40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 13);
+            this.label5.Size = new System.Drawing.Size(98, 24);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Тема 1";
+            this.label5.Text = "Раздел 1";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(82, 45);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(76, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(106, 29);
             this.label1.TabIndex = 9;
             this.label1.Text = "Теория";
+            // 
+            // TheoryPdfViewer
+            // 
+            this.TheoryPdfViewer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TheoryPdfViewer.Location = new System.Drawing.Point(0, 0);
+            this.TheoryPdfViewer.Name = "TheoryPdfViewer";
+            this.TheoryPdfViewer.Size = new System.Drawing.Size(1066, 681);
+            this.TheoryPdfViewer.TabIndex = 0;
+            this.TheoryPdfViewer.ThumbnailsScaleFactor = 0.15F;
             // 
             // TheoryForm
             // 
@@ -165,8 +260,10 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
+            this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -174,14 +271,19 @@
         #endregion
 
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.LinkLabel linkLabel4;
-        private System.Windows.Forms.LinkLabel linkLabel5;
-        private System.Windows.Forms.LinkLabel linkLabel6;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel Topic9LinkLabel;
+        private System.Windows.Forms.LinkLabel Topic8LinkLabel;
+        private System.Windows.Forms.LinkLabel Topic7LinkLabel;
+        private System.Windows.Forms.LinkLabel Topic3LinkLabel;
+        private System.Windows.Forms.LinkLabel Topic2LinkLabel;
+        private System.Windows.Forms.LinkLabel Topic1LinkLabel;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
+        private Telerik.WinControls.UI.RadPdfViewer TheoryPdfViewer;
+        private System.Windows.Forms.LinkLabel Topic6LinkLabel;
+        private System.Windows.Forms.LinkLabel Topic5LinkLabel;
+        private System.Windows.Forms.LinkLabel Topic4LinkLabel;
+        private System.Windows.Forms.Button ExitToMainManuButton;
     }
 }

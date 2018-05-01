@@ -28,48 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Машина как объект производства");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Машиностроительное предприятие");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Способы получения и обработки заготовок");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Структурные элементы технологической операции");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Типы производства");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Теоретические основы технологии машиностроения", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Технологичность конструкций машин");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Технологичность конструкций деталей");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Технологичность конструкций изделий", new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8});
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Базы и принципы базирования в машиностроении");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Точность изделий");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Качество поверхностей деталей машин");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Выбор способов обработки поверхностей");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Заготовки деталей машин");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Припуски на механическую обработку");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Технологическое обеспечение качества изготовления машин", new System.Windows.Forms.TreeNode[] {
-            treeNode10,
-            treeNode11,
-            treeNode12,
-            treeNode13,
-            treeNode14,
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Общие сведения о сборке машин");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Балансировка и досборочная обработка");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Составление схемы сборки");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Способы сборки типовых соединений");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Структурные компоненты технологии сборки машин", new System.Windows.Forms.TreeNode[] {
-            treeNode17,
-            treeNode18,
-            treeNode19,
-            treeNode20});
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Машина как объект производства");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Машиностроительное предприятие");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Способы получения и обработки заготовок");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Структурные элементы технологической операции");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Типы производства");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Теоретические основы технологии машиностроения", new System.Windows.Forms.TreeNode[] {
+            treeNode22,
+            treeNode23,
+            treeNode24,
+            treeNode25,
+            treeNode26});
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Технологичность конструкций машин");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Технологичность конструкций деталей");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Технологичность конструкций изделий", new System.Windows.Forms.TreeNode[] {
+            treeNode28,
+            treeNode29});
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Базы и принципы базирования в машиностроении");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Точность изделий");
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Качество поверхностей деталей машин");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Выбор способов обработки поверхностей");
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Заготовки деталей машин");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Припуски на механическую обработку");
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Технологическое обеспечение качества изготовления машин", new System.Windows.Forms.TreeNode[] {
+            treeNode31,
+            treeNode32,
+            treeNode33,
+            treeNode34,
+            treeNode35,
+            treeNode36});
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Общие сведения о сборке машин");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Балансировка и досборочная обработка");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Составление схемы сборки");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Способы сборки типовых соединений");
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Структурные компоненты технологии сборки машин", new System.Windows.Forms.TreeNode[] {
+            treeNode38,
+            treeNode39,
+            treeNode40,
+            treeNode41});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.radPdfViewer1 = new Telerik.WinControls.UI.RadPdfViewer();
+            this.ContentTreeView = new System.Windows.Forms.TreeView();
+            this.TheoryPdfViewer = new Telerik.WinControls.UI.RadPdfViewer();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -77,7 +77,7 @@
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radPdfViewer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -92,8 +92,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1350, 681);
-            this.splitContainer1.SplitterDistance = 158;
+            this.splitContainer1.Size = new System.Drawing.Size(1350, 691);
+            this.splitContainer1.SplitterDistance = 160;
             this.splitContainer1.TabIndex = 0;
             this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             // 
@@ -107,111 +107,111 @@
             // 
             // splitContainer2.Panel1
             // 
-            this.splitContainer2.Panel1.Controls.Add(this.treeView1);
+            this.splitContainer2.Panel1.Controls.Add(this.ContentTreeView);
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.radPdfViewer1);
-            this.splitContainer2.Size = new System.Drawing.Size(1350, 519);
-            this.splitContainer2.SplitterDistance = 597;
+            this.splitContainer2.Panel2.Controls.Add(this.TheoryPdfViewer);
+            this.splitContainer2.Size = new System.Drawing.Size(1350, 527);
+            this.splitContainer2.SplitterDistance = 567;
             this.splitContainer2.TabIndex = 0;
             // 
-            // treeView1
+            // ContentTreeView
             // 
-            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.treeView1.Location = new System.Drawing.Point(0, 0);
-            this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node5";
-            treeNode1.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode1.Text = "Машина как объект производства";
-            treeNode2.Name = "Node10";
-            treeNode2.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode2.Text = "Машиностроительное предприятие";
-            treeNode3.Name = "Node11";
-            treeNode3.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode3.Text = "Способы получения и обработки заготовок";
-            treeNode4.Name = "Node12";
-            treeNode4.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode4.Text = "Структурные элементы технологической операции";
-            treeNode5.Name = "Node13";
-            treeNode5.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode5.Text = "Типы производства";
-            treeNode6.Name = "Node0";
-            treeNode6.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode6.Text = "Теоретические основы технологии машиностроения";
-            treeNode7.Name = "Node15";
-            treeNode7.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode7.Text = "Технологичность конструкций машин";
-            treeNode8.Name = "Node16";
-            treeNode8.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode8.Text = "Технологичность конструкций деталей";
-            treeNode9.Name = "Node1";
-            treeNode9.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode9.Text = "Технологичность конструкций изделий";
-            treeNode10.Name = "Node18";
-            treeNode10.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode10.Text = "Базы и принципы базирования в машиностроении";
-            treeNode11.Name = "Node19";
-            treeNode11.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode11.Text = "Точность изделий";
-            treeNode12.Name = "Node20";
-            treeNode12.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode12.Text = "Качество поверхностей деталей машин";
-            treeNode13.Name = "Node21";
-            treeNode13.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode13.Text = "Выбор способов обработки поверхностей";
-            treeNode14.Name = "Node22";
-            treeNode14.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode14.Text = "Заготовки деталей машин";
-            treeNode15.Name = "Node23";
-            treeNode15.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode15.Text = "Припуски на механическую обработку";
-            treeNode16.Name = "Node2";
-            treeNode16.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode16.Text = "Технологическое обеспечение качества изготовления машин";
-            treeNode17.Name = "Node24";
-            treeNode17.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode17.Text = "Общие сведения о сборке машин";
-            treeNode18.Name = "Node25";
-            treeNode18.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode18.Text = "Балансировка и досборочная обработка";
-            treeNode19.Name = "Node26";
-            treeNode19.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode19.Text = "Составление схемы сборки";
-            treeNode20.Name = "Node27";
-            treeNode20.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode20.Text = "Способы сборки типовых соединений";
-            treeNode21.Name = "Node3";
-            treeNode21.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            treeNode21.Text = "Структурные компоненты технологии сборки машин";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode6,
-            treeNode9,
-            treeNode16,
-            treeNode21});
-            this.treeView1.Size = new System.Drawing.Size(595, 517);
-            this.treeView1.TabIndex = 0;
+            this.ContentTreeView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ContentTreeView.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ContentTreeView.Location = new System.Drawing.Point(0, 0);
+            this.ContentTreeView.Name = "ContentTreeView";
+            treeNode22.Name = "Chapter1_1";
+            treeNode22.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode22.Text = "Машина как объект производства";
+            treeNode23.Name = "Chapter1_2";
+            treeNode23.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode23.Text = "Машиностроительное предприятие";
+            treeNode24.Name = "Chapter1_3";
+            treeNode24.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode24.Text = "Способы получения и обработки заготовок";
+            treeNode25.Name = "Chapter1_4";
+            treeNode25.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode25.Text = "Структурные элементы технологической операции";
+            treeNode26.Name = "Chapter1_5";
+            treeNode26.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode26.Text = "Типы производства";
+            treeNode27.Name = "Node0";
+            treeNode27.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode27.Text = "Теоретические основы технологии машиностроения";
+            treeNode28.Name = "Chapter2_1";
+            treeNode28.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode28.Text = "Технологичность конструкций машин";
+            treeNode29.Name = "Chapter2_2";
+            treeNode29.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode29.Text = "Технологичность конструкций деталей";
+            treeNode30.Name = "Node1";
+            treeNode30.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode30.Text = "Технологичность конструкций изделий";
+            treeNode31.Name = "Chapter3_1";
+            treeNode31.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode31.Text = "Базы и принципы базирования в машиностроении";
+            treeNode32.Name = "Chapter3_2";
+            treeNode32.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode32.Text = "Точность изделий";
+            treeNode33.Name = "Chapter3_3";
+            treeNode33.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode33.Text = "Качество поверхностей деталей машин";
+            treeNode34.Name = "Chapter3_4";
+            treeNode34.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode34.Text = "Выбор способов обработки поверхностей";
+            treeNode35.Name = "Chapter3_5";
+            treeNode35.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode35.Text = "Заготовки деталей машин";
+            treeNode36.Name = "Chapter3_6";
+            treeNode36.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode36.Text = "Припуски на механическую обработку";
+            treeNode37.Name = "Node2";
+            treeNode37.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode37.Text = "Технологическое обеспечение качества изготовления машин";
+            treeNode38.Name = "Chapter4_1";
+            treeNode38.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode38.Text = "Общие сведения о сборке машин";
+            treeNode39.Name = "Chapter4_2";
+            treeNode39.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode39.Text = "Балансировка и досборочная обработка";
+            treeNode40.Name = "Chapter4_3";
+            treeNode40.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode40.Text = "Составление схемы сборки";
+            treeNode41.Name = "Chapter4_4";
+            treeNode41.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode41.Text = "Способы сборки типовых соединений";
+            treeNode42.Name = "Node3";
+            treeNode42.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            treeNode42.Text = "Структурные компоненты технологии сборки машин";
+            this.ContentTreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode27,
+            treeNode30,
+            treeNode37,
+            treeNode42});
+            this.ContentTreeView.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ContentTreeView.Size = new System.Drawing.Size(565, 525);
+            this.ContentTreeView.TabIndex = 0;
+            this.ContentTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ContentTreeView_AfterSelect);
             // 
-            // radPdfViewer1
+            // TheoryPdfViewer
             // 
-            this.radPdfViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radPdfViewer1.EnableThumbnails = false;
-            this.radPdfViewer1.Location = new System.Drawing.Point(0, 0);
-            this.radPdfViewer1.Name = "radPdfViewer1";
-            this.radPdfViewer1.Size = new System.Drawing.Size(747, 517);
-            this.radPdfViewer1.TabIndex = 0;
-            this.radPdfViewer1.ThumbnailsScaleFactor = 0.15F;
+            this.TheoryPdfViewer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TheoryPdfViewer.EnableThumbnails = false;
+            this.TheoryPdfViewer.Location = new System.Drawing.Point(0, 0);
+            this.TheoryPdfViewer.Name = "TheoryPdfViewer";
+            this.TheoryPdfViewer.Size = new System.Drawing.Size(777, 525);
+            this.TheoryPdfViewer.TabIndex = 0;
+            this.TheoryPdfViewer.ThumbnailsScaleFactor = 0.15F;
             // 
             // TheoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1350, 681);
+            this.ClientSize = new System.Drawing.Size(1350, 691);
             this.Controls.Add(this.splitContainer1);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1364, 720);
+            this.MinimumSize = new System.Drawing.Size(1364, 726);
             this.Name = "TheoryForm";
             this.Text = "TheoryForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -222,7 +222,7 @@
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radPdfViewer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TheoryPdfViewer)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -231,7 +231,7 @@
 
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.SplitContainer splitContainer2;
-        private System.Windows.Forms.TreeView treeView1;
-        private Telerik.WinControls.UI.RadPdfViewer radPdfViewer1;
+        private System.Windows.Forms.TreeView ContentTreeView;
+        private Telerik.WinControls.UI.RadPdfViewer TheoryPdfViewer;
     }
 }

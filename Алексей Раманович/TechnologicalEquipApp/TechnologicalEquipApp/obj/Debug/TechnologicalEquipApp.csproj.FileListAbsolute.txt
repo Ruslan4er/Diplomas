@@ -2,7 +2,6 @@ D:\Дипломы(работа)\Diplomas\Алексей Раманович\Techn
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEquipApp.exe
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEquipApp.pdb
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.csprojResolveAssemblyReference.cache
-D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.Form1.resources
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.Properties.Resources.resources
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.csproj.GenerateResource.Cache
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.csproj.CoreCompileInputs.cache
@@ -23,3 +22,5 @@ D:\Дипломы(работа)\Diplomas\Алексей Раманович\Techn
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\Telerik.Windows.Documents.Fixed.xml
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\Telerik.Windows.Zip.xml
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.exe.licenses
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.MainMenuForm.resources
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.TestsForm.resources

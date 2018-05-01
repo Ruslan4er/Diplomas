@@ -16,7 +16,7 @@ namespace TechnologicalEquipApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TheoryForm());
+            Application.Run(new MainMenuForm());
         }
     }
 }

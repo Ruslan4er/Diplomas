@@ -15,11 +15,37 @@ namespace TechnologicalEquipApp
         public TheoryForm()
         {
             InitializeComponent();
+            theoryContainer = new TheoryContainer();
         }
+
+        private readonly TheoryContainer theoryContainer;
 
         private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
         {
 
+        }
+
+        private void SetTheoryFile(string name)
+        {
+            var path = GetTheoryPath(name);
+            if (string.IsNullOrEmpty(path))
+                return;
+            TheoryPdfViewer.LoadDocument(path);
+        }
+
+        private string GetTheoryPath(string name)
+        {
+            string path = null;
+            foreach (var theory in theoryContainer.TheoryList)
+                if (theory.Name == name)
+                    path = theory.Path;
+            return path;
+        }
+
+        private void ContentTreeView_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            var selectedNode = ContentTreeView.SelectedNode.Name;
+            SetTheoryFile(selectedNode);
         }
     }
 }

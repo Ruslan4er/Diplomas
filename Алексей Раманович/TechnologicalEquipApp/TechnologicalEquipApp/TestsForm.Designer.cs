@@ -69,12 +69,12 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.ContentTreeView = new System.Windows.Forms.TreeView();
-            this.Answer1RadioButton = new System.Windows.Forms.RadioButton();
-            this.Answer2RadioButton = new System.Windows.Forms.RadioButton();
-            this.Answer3RadioButton = new System.Windows.Forms.RadioButton();
-            this.QuestionCounterLabel = new System.Windows.Forms.Label();
-            this.QuestionLabel = new System.Windows.Forms.Label();
             this.NextQuestionButton = new System.Windows.Forms.Button();
+            this.QuestionLabel = new System.Windows.Forms.Label();
+            this.QuestionCounterLabel = new System.Windows.Forms.Label();
+            this.Answer3RadioButton = new System.Windows.Forms.RadioButton();
+            this.Answer2RadioButton = new System.Windows.Forms.RadioButton();
+            this.Answer1RadioButton = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -130,64 +130,64 @@
             this.ContentTreeView.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ContentTreeView.Location = new System.Drawing.Point(0, 0);
             this.ContentTreeView.Name = "ContentTreeView";
-            treeNode1.Name = "Chapter1_1";
+            treeNode1.Name = "1";
             treeNode1.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode1.Text = "Машина как объект производства";
-            treeNode2.Name = "Chapter1_2";
+            treeNode2.Name = "2";
             treeNode2.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode2.Text = "Машиностроительное предприятие";
-            treeNode3.Name = "Chapter1_3";
+            treeNode3.Name = "3";
             treeNode3.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode3.Text = "Способы получения и обработки заготовок";
-            treeNode4.Name = "Chapter1_4";
+            treeNode4.Name = "4";
             treeNode4.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode4.Text = "Структурные элементы технологической операции";
-            treeNode5.Name = "Chapter1_5";
+            treeNode5.Name = "5";
             treeNode5.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode5.Text = "Типы производства";
             treeNode6.Name = "Node0";
             treeNode6.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode6.Text = "Теоретические основы технологии машиностроения";
-            treeNode7.Name = "Chapter2_1";
+            treeNode7.Name = "6";
             treeNode7.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode7.Text = "Технологичность конструкций машин";
-            treeNode8.Name = "Chapter2_2";
+            treeNode8.Name = "7";
             treeNode8.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode8.Text = "Технологичность конструкций деталей";
             treeNode9.Name = "Node1";
             treeNode9.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode9.Text = "Технологичность конструкций изделий";
-            treeNode10.Name = "Chapter3_1";
+            treeNode10.Name = "8";
             treeNode10.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode10.Text = "Базы и принципы базирования в машиностроении";
-            treeNode11.Name = "Chapter3_2";
+            treeNode11.Name = "9";
             treeNode11.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode11.Text = "Точность изделий";
-            treeNode12.Name = "Chapter3_3";
+            treeNode12.Name = "10";
             treeNode12.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode12.Text = "Качество поверхностей деталей машин";
-            treeNode13.Name = "Chapter3_4";
+            treeNode13.Name = "11";
             treeNode13.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode13.Text = "Выбор способов обработки поверхностей";
-            treeNode14.Name = "Chapter3_5";
+            treeNode14.Name = "12";
             treeNode14.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode14.Text = "Заготовки деталей машин";
-            treeNode15.Name = "Chapter3_6";
+            treeNode15.Name = "13";
             treeNode15.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode15.Text = "Припуски на механическую обработку";
             treeNode16.Name = "Node2";
             treeNode16.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode16.Text = "Технологическое обеспечение качества изготовления машин";
-            treeNode17.Name = "Chapter4_1";
+            treeNode17.Name = "14";
             treeNode17.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode17.Text = "Общие сведения о сборке машин";
-            treeNode18.Name = "Chapter4_2";
+            treeNode18.Name = "15";
             treeNode18.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode18.Text = "Балансировка и досборочная обработка";
-            treeNode19.Name = "Chapter4_3";
+            treeNode19.Name = "16";
             treeNode19.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode19.Text = "Составление схемы сборки";
-            treeNode20.Name = "Chapter4_4";
+            treeNode20.Name = "17";
             treeNode20.NodeFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             treeNode20.Text = "Способы сборки типовых соединений";
             treeNode21.Name = "Node3";
@@ -201,30 +201,38 @@
             this.ContentTreeView.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ContentTreeView.Size = new System.Drawing.Size(565, 525);
             this.ContentTreeView.TabIndex = 0;
+            this.ContentTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.ContentTreeView_AfterSelect);
             // 
-            // Answer1RadioButton
+            // NextQuestionButton
             // 
-            this.Answer1RadioButton.AutoSize = true;
-            this.Answer1RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Answer1RadioButton.Location = new System.Drawing.Point(55, 181);
-            this.Answer1RadioButton.Name = "Answer1RadioButton";
-            this.Answer1RadioButton.Size = new System.Drawing.Size(80, 22);
-            this.Answer1RadioButton.TabIndex = 0;
-            this.Answer1RadioButton.TabStop = true;
-            this.Answer1RadioButton.Text = "Ответ 1";
-            this.Answer1RadioButton.UseVisualStyleBackColor = true;
+            this.NextQuestionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextQuestionButton.Location = new System.Drawing.Point(321, 324);
+            this.NextQuestionButton.Name = "NextQuestionButton";
+            this.NextQuestionButton.Size = new System.Drawing.Size(151, 63);
+            this.NextQuestionButton.TabIndex = 6;
+            this.NextQuestionButton.Text = "Далее";
+            this.NextQuestionButton.UseVisualStyleBackColor = true;
+            this.NextQuestionButton.Click += new System.EventHandler(this.NextQuestionButton_Click);
             // 
-            // Answer2RadioButton
+            // QuestionLabel
             // 
-            this.Answer2RadioButton.AutoSize = true;
-            this.Answer2RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Answer2RadioButton.Location = new System.Drawing.Point(55, 222);
-            this.Answer2RadioButton.Name = "Answer2RadioButton";
-            this.Answer2RadioButton.Size = new System.Drawing.Size(80, 22);
-            this.Answer2RadioButton.TabIndex = 1;
-            this.Answer2RadioButton.TabStop = true;
-            this.Answer2RadioButton.Text = "Ответ 2";
-            this.Answer2RadioButton.UseVisualStyleBackColor = true;
+            this.QuestionLabel.AutoSize = true;
+            this.QuestionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.QuestionLabel.Location = new System.Drawing.Point(52, 123);
+            this.QuestionLabel.Name = "QuestionLabel";
+            this.QuestionLabel.Size = new System.Drawing.Size(60, 18);
+            this.QuestionLabel.TabIndex = 4;
+            this.QuestionLabel.Text = "Вопрос";
+            // 
+            // QuestionCounterLabel
+            // 
+            this.QuestionCounterLabel.AutoSize = true;
+            this.QuestionCounterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.QuestionCounterLabel.Location = new System.Drawing.Point(360, 28);
+            this.QuestionCounterLabel.Name = "QuestionCounterLabel";
+            this.QuestionCounterLabel.Size = new System.Drawing.Size(112, 18);
+            this.QuestionCounterLabel.TabIndex = 3;
+            this.QuestionCounterLabel.Text = "Вопрос 1 из 10";
             // 
             // Answer3RadioButton
             // 
@@ -238,35 +246,29 @@
             this.Answer3RadioButton.Text = "Ответ 3";
             this.Answer3RadioButton.UseVisualStyleBackColor = true;
             // 
-            // QuestionCounterLabel
+            // Answer2RadioButton
             // 
-            this.QuestionCounterLabel.AutoSize = true;
-            this.QuestionCounterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.QuestionCounterLabel.Location = new System.Drawing.Point(360, 28);
-            this.QuestionCounterLabel.Name = "QuestionCounterLabel";
-            this.QuestionCounterLabel.Size = new System.Drawing.Size(112, 18);
-            this.QuestionCounterLabel.TabIndex = 3;
-            this.QuestionCounterLabel.Text = "Вопрос 1 из 10";
+            this.Answer2RadioButton.AutoSize = true;
+            this.Answer2RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Answer2RadioButton.Location = new System.Drawing.Point(55, 222);
+            this.Answer2RadioButton.Name = "Answer2RadioButton";
+            this.Answer2RadioButton.Size = new System.Drawing.Size(80, 22);
+            this.Answer2RadioButton.TabIndex = 1;
+            this.Answer2RadioButton.TabStop = true;
+            this.Answer2RadioButton.Text = "Ответ 2";
+            this.Answer2RadioButton.UseVisualStyleBackColor = true;
             // 
-            // QuestionLabel
+            // Answer1RadioButton
             // 
-            this.QuestionLabel.AutoSize = true;
-            this.QuestionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.QuestionLabel.Location = new System.Drawing.Point(52, 123);
-            this.QuestionLabel.Name = "QuestionLabel";
-            this.QuestionLabel.Size = new System.Drawing.Size(60, 18);
-            this.QuestionLabel.TabIndex = 4;
-            this.QuestionLabel.Text = "Вопрос";
-            // 
-            // NextQuestionButton
-            // 
-            this.NextQuestionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextQuestionButton.Location = new System.Drawing.Point(321, 324);
-            this.NextQuestionButton.Name = "NextQuestionButton";
-            this.NextQuestionButton.Size = new System.Drawing.Size(151, 63);
-            this.NextQuestionButton.TabIndex = 6;
-            this.NextQuestionButton.Text = "Далее";
-            this.NextQuestionButton.UseVisualStyleBackColor = true;
+            this.Answer1RadioButton.AutoSize = true;
+            this.Answer1RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Answer1RadioButton.Location = new System.Drawing.Point(55, 181);
+            this.Answer1RadioButton.Name = "Answer1RadioButton";
+            this.Answer1RadioButton.Size = new System.Drawing.Size(80, 22);
+            this.Answer1RadioButton.TabIndex = 0;
+            this.Answer1RadioButton.TabStop = true;
+            this.Answer1RadioButton.Text = "Ответ 1";
+            this.Answer1RadioButton.UseVisualStyleBackColor = true;
             // 
             // TestsForm
             // 

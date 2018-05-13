@@ -39,10 +39,11 @@
             // 
             // LoginButton
             // 
+            this.LoginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LoginButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.LoginButton.Location = new System.Drawing.Point(7, 219);
+            this.LoginButton.Location = new System.Drawing.Point(12, 101);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(110, 23);
+            this.LoginButton.Size = new System.Drawing.Size(112, 35);
             this.LoginButton.TabIndex = 14;
             this.LoginButton.TabStop = false;
             this.LoginButton.Text = "Вход";
@@ -52,10 +53,11 @@
             // RegistrationLinkLabel
             // 
             this.RegistrationLinkLabel.AutoSize = true;
+            this.RegistrationLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RegistrationLinkLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.RegistrationLinkLabel.Location = new System.Drawing.Point(123, 224);
+            this.RegistrationLinkLabel.Location = new System.Drawing.Point(137, 110);
             this.RegistrationLinkLabel.Name = "RegistrationLinkLabel";
-            this.RegistrationLinkLabel.Size = new System.Drawing.Size(72, 13);
+            this.RegistrationLinkLabel.Size = new System.Drawing.Size(92, 16);
             this.RegistrationLinkLabel.TabIndex = 13;
             this.RegistrationLinkLabel.TabStop = true;
             this.RegistrationLinkLabel.Text = "Регистрация";
@@ -64,9 +66,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(53, 125);
+            this.label3.Location = new System.Drawing.Point(62, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 16);
             this.label3.TabIndex = 12;
@@ -75,43 +77,47 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(5, 185);
+            this.label2.Location = new System.Drawing.Point(5, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.Size = new System.Drawing.Size(57, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "Пароль";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(5, 159);
+            this.label1.Location = new System.Drawing.Point(5, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(47, 16);
             this.label1.TabIndex = 10;
             this.label1.Text = "Логин";
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(56, 182);
+            this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordTextBox.Location = new System.Drawing.Point(65, 65);
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(139, 20);
+            this.PasswordTextBox.Size = new System.Drawing.Size(139, 22);
             this.PasswordTextBox.TabIndex = 9;
             this.PasswordTextBox.UseSystemPasswordChar = true;
             // 
             // LoginTextBox
             // 
-            this.LoginTextBox.Location = new System.Drawing.Point(56, 156);
+            this.LoginTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginTextBox.Location = new System.Drawing.Point(65, 39);
             this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.Size = new System.Drawing.Size(139, 20);
+            this.LoginTextBox.Size = new System.Drawing.Size(139, 22);
             this.LoginTextBox.TabIndex = 8;
             // 
             // AuthorizationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(210, 252);
+            this.ClientSize = new System.Drawing.Size(234, 162);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.RegistrationLinkLabel);
             this.Controls.Add(this.label3);
@@ -121,6 +127,7 @@
             this.Controls.Add(this.LoginTextBox);
             this.Name = "AuthorizationForm";
             this.Text = "AuthorizationForm";
+            this.Load += new System.EventHandler(this.AuthorizationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

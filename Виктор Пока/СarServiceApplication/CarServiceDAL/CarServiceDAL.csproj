@@ -83,6 +83,9 @@
     <Compile Include="sysdiagram.cs">
       <DependentUpon>CarServiceDBModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="TestingResult.cs">
+      <DependentUpon>CarServiceDBModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="User.cs">
       <DependentUpon>CarServiceDBModel.tt</DependentUpon>
     </Compile>

@@ -17,26 +17,25 @@ namespace СarServiceApplication
         {
             InitializeComponent();
             TestPanel.Visible = false;
-            TheoryPanel.Visible = false;
+            TheoryPanel.Visible = true;
         }
 
         private void TestsButton_Click(object sender, EventArgs e)
         {
             TestPanel.Visible = true;
             TheoryPanel.Visible = false;
-            label1.Hide();
         }
 
         private void TheoryButton_Click(object sender, EventArgs e)
         {
             TestPanel.Visible = false;
             TheoryPanel.Visible = true;
-            label1.Hide();
         }
 
         private void AccountButton_Click(object sender, EventArgs e)
         {
-
+            var frm = new AccountForm(UserData.UserId);
+            frm.ShowDialog();
         }
 
         private void ExitButton_Click(object sender, EventArgs e)

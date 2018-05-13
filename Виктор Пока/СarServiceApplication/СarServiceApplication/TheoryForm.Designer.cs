@@ -40,6 +40,7 @@
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.MainMenuButton = new System.Windows.Forms.Button();
             this.TestButton = new System.Windows.Forms.Button();
+            this.WatchVideoButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.radCarousel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
@@ -110,6 +111,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.WatchVideoButton);
             this.splitContainer1.Panel1.Controls.Add(this.BackPicButton);
             this.splitContainer1.Panel1.Controls.Add(this.NextPicButton);
             this.splitContainer1.Panel1.Controls.Add(this.TheoryPictureBox);
@@ -124,7 +126,7 @@
             // BackPicButton
             // 
             this.BackPicButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BackPicButton.Location = new System.Drawing.Point(54, 449);
+            this.BackPicButton.Location = new System.Drawing.Point(12, 449);
             this.BackPicButton.Name = "BackPicButton";
             this.BackPicButton.Size = new System.Drawing.Size(150, 54);
             this.BackPicButton.TabIndex = 3;
@@ -135,7 +137,7 @@
             // NextPicButton
             // 
             this.NextPicButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextPicButton.Location = new System.Drawing.Point(299, 449);
+            this.NextPicButton.Location = new System.Drawing.Point(363, 449);
             this.NextPicButton.Name = "NextPicButton";
             this.NextPicButton.Size = new System.Drawing.Size(150, 54);
             this.NextPicButton.TabIndex = 2;
@@ -202,6 +204,17 @@
             this.TestButton.UseVisualStyleBackColor = true;
             this.TestButton.Click += new System.EventHandler(this.TestButton_Click);
             // 
+            // WatchVideoButton
+            // 
+            this.WatchVideoButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WatchVideoButton.Location = new System.Drawing.Point(189, 449);
+            this.WatchVideoButton.Name = "WatchVideoButton";
+            this.WatchVideoButton.Size = new System.Drawing.Size(150, 54);
+            this.WatchVideoButton.TabIndex = 4;
+            this.WatchVideoButton.Text = "Видео";
+            this.WatchVideoButton.UseVisualStyleBackColor = true;
+            this.WatchVideoButton.Click += new System.EventHandler(this.WatchVideoButton_Click);
+            // 
             // TheoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -240,5 +253,6 @@
         private Telerik.WinControls.UI.RadPdfViewer TheoryPdfViewer;
         private System.Windows.Forms.Button BackPicButton;
         private System.Windows.Forms.Button NextPicButton;
+        private System.Windows.Forms.Button WatchVideoButton;
     }
 }

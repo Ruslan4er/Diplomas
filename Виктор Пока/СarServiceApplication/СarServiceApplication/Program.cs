@@ -17,9 +17,9 @@ namespace СarServiceApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
-            //Application.Run(new AuthorizationForm());
-            //Application.Run(new TestsForm(2));
+            //Application.Run(new MainForm());
+            Application.Run(new AuthorizationForm());
+            //Application.Run(new VideoForm(Application.StartupPath + "\\Content\\Theory\\videoplayback.mp4"));
 
         }
     }

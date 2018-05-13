@@ -36,6 +36,7 @@
             this.TheoryButton = new System.Windows.Forms.Button();
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.TestPanel = new Telerik.WinControls.UI.RadPanel();
+            this.label2 = new System.Windows.Forms.Label();
             this.Test9LinkLabel = new System.Windows.Forms.LinkLabel();
             this.Test8LinkLabel = new System.Windows.Forms.LinkLabel();
             this.Test7LinkLabel = new System.Windows.Forms.LinkLabel();
@@ -46,18 +47,16 @@
             this.Test2LinkLabel = new System.Windows.Forms.LinkLabel();
             this.TheoryPanel = new Telerik.WinControls.UI.RadPanel();
             this.Chapter9LinkLabel = new System.Windows.Forms.LinkLabel();
-            this.Chapter8LinkLabel = new System.Windows.Forms.LinkLabel();
-            this.Chapter7LinkLabel = new System.Windows.Forms.LinkLabel();
-            this.Chapter6LinkLabel = new System.Windows.Forms.LinkLabel();
-            this.Chapter5LinkLabel = new System.Windows.Forms.LinkLabel();
-            this.Chapter4LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Chapter1LinkLabel = new System.Windows.Forms.LinkLabel();
             this.Chapter3LinkLabel = new System.Windows.Forms.LinkLabel();
             this.Chapter2LinkLabel = new System.Windows.Forms.LinkLabel();
-            this.Chapter1LinkLabel = new System.Windows.Forms.LinkLabel();
-            this.radPageView1 = new Telerik.WinControls.UI.RadPageView();
+            this.Chapter8LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Chapter5LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Chapter4LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Chapter7LinkLabel = new System.Windows.Forms.LinkLabel();
+            this.Chapter6LinkLabel = new System.Windows.Forms.LinkLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.radPageView1 = new Telerik.WinControls.UI.RadPageView();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel1)).BeginInit();
@@ -68,8 +67,8 @@
             this.TestPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPanel)).BeginInit();
             this.TheoryPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radPageView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radPageView1)).BeginInit();
             this.SuspendLayout();
             // 
             // radSplitContainer1
@@ -154,9 +153,8 @@
             // 
             // splitPanel2
             // 
-            this.splitPanel2.Controls.Add(this.TestPanel);
-            this.splitPanel2.Controls.Add(this.label1);
             this.splitPanel2.Controls.Add(this.TheoryPanel);
+            this.splitPanel2.Controls.Add(this.TestPanel);
             this.splitPanel2.Location = new System.Drawing.Point(315, 0);
             this.splitPanel2.Name = "splitPanel2";
             // 
@@ -185,6 +183,16 @@
             this.TestPanel.Name = "TestPanel";
             this.TestPanel.Size = new System.Drawing.Size(1035, 681);
             this.TestPanel.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(21, 136);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(556, 32);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Выберите нужную главу для тестирования:";
             // 
             // Test9LinkLabel
             // 
@@ -322,70 +330,18 @@
             this.Chapter9LinkLabel.Text = "Система охлаждения двигателя";
             this.Chapter9LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter9LinkLabel_LinkClicked);
             // 
-            // Chapter8LinkLabel
+            // Chapter1LinkLabel
             // 
-            this.Chapter8LinkLabel.AutoSize = true;
-            this.Chapter8LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Chapter8LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter8LinkLabel.Location = new System.Drawing.Point(696, 421);
-            this.Chapter8LinkLabel.Name = "Chapter8LinkLabel";
-            this.Chapter8LinkLabel.Size = new System.Drawing.Size(327, 25);
-            this.Chapter8LinkLabel.TabIndex = 26;
-            this.Chapter8LinkLabel.TabStop = true;
-            this.Chapter8LinkLabel.Text = "Система зажигания автомобиля";
-            this.Chapter8LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter8LinkLabel_LinkClicked);
-            // 
-            // Chapter7LinkLabel
-            // 
-            this.Chapter7LinkLabel.AutoSize = true;
-            this.Chapter7LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Chapter7LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter7LinkLabel.Location = new System.Drawing.Point(683, 136);
-            this.Chapter7LinkLabel.Name = "Chapter7LinkLabel";
-            this.Chapter7LinkLabel.Size = new System.Drawing.Size(324, 25);
-            this.Chapter7LinkLabel.TabIndex = 25;
-            this.Chapter7LinkLabel.TabStop = true;
-            this.Chapter7LinkLabel.Text = "Топливная система автомобиля";
-            this.Chapter7LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter7LinkLabel_LinkClicked);
-            // 
-            // Chapter6LinkLabel
-            // 
-            this.Chapter6LinkLabel.AutoSize = true;
-            this.Chapter6LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Chapter6LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter6LinkLabel.Location = new System.Drawing.Point(683, 95);
-            this.Chapter6LinkLabel.Name = "Chapter6LinkLabel";
-            this.Chapter6LinkLabel.Size = new System.Drawing.Size(275, 25);
-            this.Chapter6LinkLabel.TabIndex = 24;
-            this.Chapter6LinkLabel.TabStop = true;
-            this.Chapter6LinkLabel.Text = "Система смазки двигателя";
-            this.Chapter6LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter6LinkLabel_LinkClicked);
-            // 
-            // Chapter5LinkLabel
-            // 
-            this.Chapter5LinkLabel.AutoSize = true;
-            this.Chapter5LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Chapter5LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter5LinkLabel.Location = new System.Drawing.Point(683, 55);
-            this.Chapter5LinkLabel.Name = "Chapter5LinkLabel";
-            this.Chapter5LinkLabel.Size = new System.Drawing.Size(340, 25);
-            this.Chapter5LinkLabel.TabIndex = 22;
-            this.Chapter5LinkLabel.TabStop = true;
-            this.Chapter5LinkLabel.Text = "Кривошипно-шатунный механизм";
-            this.Chapter5LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter5LinkLabel_LinkClicked);
-            // 
-            // Chapter4LinkLabel
-            // 
-            this.Chapter4LinkLabel.AutoSize = true;
-            this.Chapter4LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Chapter4LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter4LinkLabel.Location = new System.Drawing.Point(22, 550);
-            this.Chapter4LinkLabel.Name = "Chapter4LinkLabel";
-            this.Chapter4LinkLabel.Size = new System.Drawing.Size(346, 25);
-            this.Chapter4LinkLabel.TabIndex = 21;
-            this.Chapter4LinkLabel.TabStop = true;
-            this.Chapter4LinkLabel.Text = "Газораспределительный механизм";
-            this.Chapter4LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter4LinkLabel_LinkClicked);
+            this.Chapter1LinkLabel.AutoSize = true;
+            this.Chapter1LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Chapter1LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
+            this.Chapter1LinkLabel.Location = new System.Drawing.Point(183, 111);
+            this.Chapter1LinkLabel.Name = "Chapter1LinkLabel";
+            this.Chapter1LinkLabel.Size = new System.Drawing.Size(98, 25);
+            this.Chapter1LinkLabel.TabIndex = 18;
+            this.Chapter1LinkLabel.TabStop = true;
+            this.Chapter1LinkLabel.Text = "Введение";
+            this.Chapter1LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter1LinkLabel_LinkClicked);
             // 
             // Chapter3LinkLabel
             // 
@@ -413,25 +369,70 @@
             this.Chapter2LinkLabel.Text = "Устройство двигателя автомобиля";
             this.Chapter2LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter2LinkLabel_LinkClicked);
             // 
-            // Chapter1LinkLabel
+            // Chapter8LinkLabel
             // 
-            this.Chapter1LinkLabel.AutoSize = true;
-            this.Chapter1LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Chapter1LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter1LinkLabel.Location = new System.Drawing.Point(183, 111);
-            this.Chapter1LinkLabel.Name = "Chapter1LinkLabel";
-            this.Chapter1LinkLabel.Size = new System.Drawing.Size(98, 25);
-            this.Chapter1LinkLabel.TabIndex = 18;
-            this.Chapter1LinkLabel.TabStop = true;
-            this.Chapter1LinkLabel.Text = "Введение";
-            this.Chapter1LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter1LinkLabel_LinkClicked);
+            this.Chapter8LinkLabel.AutoSize = true;
+            this.Chapter8LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Chapter8LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
+            this.Chapter8LinkLabel.Location = new System.Drawing.Point(696, 421);
+            this.Chapter8LinkLabel.Name = "Chapter8LinkLabel";
+            this.Chapter8LinkLabel.Size = new System.Drawing.Size(327, 25);
+            this.Chapter8LinkLabel.TabIndex = 26;
+            this.Chapter8LinkLabel.TabStop = true;
+            this.Chapter8LinkLabel.Text = "Система зажигания автомобиля";
+            this.Chapter8LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter8LinkLabel_LinkClicked);
             // 
-            // radPageView1
+            // Chapter5LinkLabel
             // 
-            this.radPageView1.Location = new System.Drawing.Point(177, 203);
-            this.radPageView1.Name = "radPageView1";
-            this.radPageView1.Size = new System.Drawing.Size(400, 300);
-            this.radPageView1.TabIndex = 0;
+            this.Chapter5LinkLabel.AutoSize = true;
+            this.Chapter5LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Chapter5LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
+            this.Chapter5LinkLabel.Location = new System.Drawing.Point(683, 55);
+            this.Chapter5LinkLabel.Name = "Chapter5LinkLabel";
+            this.Chapter5LinkLabel.Size = new System.Drawing.Size(340, 25);
+            this.Chapter5LinkLabel.TabIndex = 22;
+            this.Chapter5LinkLabel.TabStop = true;
+            this.Chapter5LinkLabel.Text = "Кривошипно-шатунный механизм";
+            this.Chapter5LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter5LinkLabel_LinkClicked);
+            // 
+            // Chapter4LinkLabel
+            // 
+            this.Chapter4LinkLabel.AutoSize = true;
+            this.Chapter4LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Chapter4LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
+            this.Chapter4LinkLabel.Location = new System.Drawing.Point(22, 550);
+            this.Chapter4LinkLabel.Name = "Chapter4LinkLabel";
+            this.Chapter4LinkLabel.Size = new System.Drawing.Size(346, 25);
+            this.Chapter4LinkLabel.TabIndex = 21;
+            this.Chapter4LinkLabel.TabStop = true;
+            this.Chapter4LinkLabel.Text = "Газораспределительный механизм";
+            this.Chapter4LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter4LinkLabel_LinkClicked);
+            // 
+            // Chapter7LinkLabel
+            // 
+            this.Chapter7LinkLabel.AutoSize = true;
+            this.Chapter7LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Chapter7LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
+            this.Chapter7LinkLabel.Location = new System.Drawing.Point(683, 136);
+            this.Chapter7LinkLabel.Name = "Chapter7LinkLabel";
+            this.Chapter7LinkLabel.Size = new System.Drawing.Size(324, 25);
+            this.Chapter7LinkLabel.TabIndex = 25;
+            this.Chapter7LinkLabel.TabStop = true;
+            this.Chapter7LinkLabel.Text = "Топливная система автомобиля";
+            this.Chapter7LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter7LinkLabel_LinkClicked);
+            // 
+            // Chapter6LinkLabel
+            // 
+            this.Chapter6LinkLabel.AutoSize = true;
+            this.Chapter6LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Chapter6LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
+            this.Chapter6LinkLabel.Location = new System.Drawing.Point(683, 95);
+            this.Chapter6LinkLabel.Name = "Chapter6LinkLabel";
+            this.Chapter6LinkLabel.Size = new System.Drawing.Size(275, 25);
+            this.Chapter6LinkLabel.TabIndex = 24;
+            this.Chapter6LinkLabel.TabStop = true;
+            this.Chapter6LinkLabel.Text = "Система смазки двигателя";
+            this.Chapter6LinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Chapter6LinkLabel_LinkClicked);
             // 
             // pictureBox1
             // 
@@ -443,25 +444,12 @@
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
+            // radPageView1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(261, 210);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(227, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Выберите пункт меню";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(21, 136);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(556, 32);
-            this.label2.TabIndex = 37;
-            this.label2.Text = "Выберите нужную главу для тестирования:";
+            this.radPageView1.Location = new System.Drawing.Point(177, 203);
+            this.radPageView1.Name = "radPageView1";
+            this.radPageView1.Size = new System.Drawing.Size(400, 300);
+            this.radPageView1.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -478,15 +466,14 @@
             this.splitPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitPanel2)).EndInit();
             this.splitPanel2.ResumeLayout(false);
-            this.splitPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TestPanel)).EndInit();
             this.TestPanel.ResumeLayout(false);
             this.TestPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TheoryPanel)).EndInit();
             this.TheoryPanel.ResumeLayout(false);
             this.TheoryPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radPageView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radPageView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -521,7 +508,6 @@
         private System.Windows.Forms.LinkLabel Test3LinkLabel;
         private System.Windows.Forms.LinkLabel Test2LinkLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
 }

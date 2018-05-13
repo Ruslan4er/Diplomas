@@ -9,7 +9,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CarServiceDAL;
-using RadioButton = System.Windows.Controls.RadioButton;
 
 namespace СarServiceApplication
 {
@@ -19,6 +18,7 @@ namespace СarServiceApplication
         private List<List<Answer>> answers;
         private int questionId;
         private int correctAnswers;
+        private string chapterName;
 
         public TestsForm(int chapterId)
         {
@@ -28,13 +28,13 @@ namespace СarServiceApplication
                 NextQuestion();
             else
                 NextQuestionButton.Enabled = false;
-            
         }
 
         private void FillData(int chapterId)
         {
             using (var context = new CarServiceDBEntities())
             {
+                chapterName = context.Chapters.Find(chapterId).Name;
                 var q = from ch in context.Chapters
                         where ch.Id == chapterId
                         select ch.Questions;
@@ -47,7 +47,7 @@ namespace СarServiceApplication
             }
         }
 
-        private void CheckAnswers()
+        private void CheckAnswer()
         {
             Answer correctAnswer = null;
             foreach (var answer in answers[questionId])
@@ -71,7 +71,7 @@ namespace СarServiceApplication
 
         private void NextQuestion()
         {
-            if (questionId == questions.Count )
+            if (questionId == questions.Count)
             {
                 NextQuestionButton.Enabled = false;
                 QuestionLabel.Text = $@"Правильных ответов - {correctAnswers}";
@@ -79,6 +79,7 @@ namespace СarServiceApplication
                 Answer2RadioButton.Hide();
                 Answer3RadioButton.Hide();
 
+                SaveResult();
                 return;
             }
             if (questionId == questions.Count - 1)
@@ -89,10 +90,41 @@ namespace СarServiceApplication
             Answer2RadioButton.Text = answers[questionId][1].Text;
             Answer3RadioButton.Text = answers[questionId][2].Text;
 
-            CheckAnswers();
+            CheckAnswer();
             questionId++;
             QuestionCounterLabel.Text = $@"Вопрос {questionId} из {questions.Count}";
+            }
 
+
+        private bool AnswerIsSelected()
+        {
+            if (Answer1RadioButton.Checked) return true;
+            if (Answer2RadioButton.Checked) return true;
+            if (Answer3RadioButton.Checked) return true;
+            return false;
+        }
+
+        private void SaveResult()
+        {
+            using (var context = new CarServiceDBEntities())
+            {
+                try
+                {
+                    context.TestingResults.Add(new TestingResult
+                    {
+                        Date = DateTime.Now,
+                        Mark = correctAnswers,
+                        UserId = UserData.UserId,
+                        Chapter = chapterName
+                    });
+                    context.SaveChanges();
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(@"Результат не сохранён. Авторизируйтесь!");
+                    MessageBox.Show(e.Message);
+                }
+            }
         }
 
         private void CloseButton_Click(object sender, EventArgs e)
@@ -102,6 +134,11 @@ namespace СarServiceApplication
 
         private void NextQuestionButton_Click(object sender, EventArgs e)
         {
+            if (!AnswerIsSelected())
+            {
+                MessageBox.Show(@"Не выбран ни один ответ!", "", MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                return;
+            }
             NextQuestion();
         }
     }

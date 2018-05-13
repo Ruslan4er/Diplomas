@@ -23,6 +23,7 @@ namespace СarServiceApplication.Authorization
             using (var context = new CarServiceDBEntities())
             {
                 var user = context.Users.FirstOrDefault(u => u.Login == login);
+                UserData.UserId = user.Id;
                 return user != null && user.Password == password;
                 //_userName = user.UserProfile.Name;
             }
@@ -64,6 +65,11 @@ namespace СarServiceApplication.Authorization
             MessageBox.Show(frm.DialogResult == DialogResult.OK
                 ? @"Вы успешно зарегестрированы"
                 : @"Регистрация отменена");
+        }
+
+        private void AuthorizationForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

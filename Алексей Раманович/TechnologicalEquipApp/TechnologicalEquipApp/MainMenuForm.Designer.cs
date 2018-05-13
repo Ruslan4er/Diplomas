@@ -79,9 +79,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(256, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(237, 24);
+            this.label1.Size = new System.Drawing.Size(151, 24);
             this.label1.TabIndex = 6;
-            this.label1.Text = "ЭСО по какой-то хуите";
+            this.label1.Text = "Главное меню";
             // 
             // MainMenuForm
             // 

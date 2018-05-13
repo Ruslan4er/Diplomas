@@ -39,6 +39,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="TestingResults">
+      <EntityTypeMapping TypeName="CarServiceDBModel.TestingResult">
+        <MappingFragment StoreEntitySet="TestingResults">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Mark" ColumnName="Mark" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Chapter" ColumnName="Chapter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="UserProfiles">
       <EntityTypeMapping TypeName="CarServiceDBModel.UserProfile">
         <MappingFragment StoreEntitySet="UserProfile">

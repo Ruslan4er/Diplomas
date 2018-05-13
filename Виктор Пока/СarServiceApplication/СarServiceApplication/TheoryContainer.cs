@@ -20,7 +20,19 @@ namespace СarServiceApplication
             Application.StartupPath + "\\Content\\Theory\\theory6.pdf",
             Application.StartupPath + "\\Content\\Theory\\theory7.pdf",
             Application.StartupPath + "\\Content\\Theory\\theory8.pdf",
-            Application.StartupPath + "\\Content\\Theory\\theory8.pdf"
+            Application.StartupPath + "\\Content\\Theory\\theory9.pdf"
+        };
+
+        public static List<string> VideoList { get; } = new List<string>
+        {
+            Application.StartupPath + "\\Content\\Video\\1.mp4",
+            Application.StartupPath + "\\Content\\Video\\2.mp4",
+            Application.StartupPath + "\\Content\\Video\\3.mp4",
+            Application.StartupPath + "\\Content\\Video\\4.mp4",
+            Application.StartupPath + "\\Content\\Video\\5.mp4",
+            Application.StartupPath + "\\Content\\Video\\6.mp4",
+            Application.StartupPath + "\\Content\\Video\\7.mp4",
+            Application.StartupPath + "\\Content\\Video\\8.mp4",
         };
 
 

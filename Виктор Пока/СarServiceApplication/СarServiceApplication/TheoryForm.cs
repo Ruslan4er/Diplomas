@@ -26,6 +26,10 @@ namespace СarServiceApplication
 
             splitContainer1.IsSplitterFixed = true;
             TheoryPdfViewer.EnableThumbnails = false;
+            if (chapterId == 1)
+            {
+                WatchVideoButton.Enabled = false;
+            }
         }
 
         private void ShowPicture(string[] picturesPassArray)
@@ -61,6 +65,12 @@ namespace СarServiceApplication
             currentPicture--;
             ShowPicture(_picturesPassArray);
             
+        }
+
+        private void WatchVideoButton_Click(object sender, EventArgs e)
+        {
+            var frm = new VideoForm(TheoryContainer.VideoList[chapterId-2]);
+            frm.ShowDialog();
         }
     }
 }

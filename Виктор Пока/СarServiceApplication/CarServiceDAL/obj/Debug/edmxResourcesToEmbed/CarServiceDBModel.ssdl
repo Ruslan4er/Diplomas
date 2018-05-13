@@ -20,7 +20,7 @@
     <Key>
       <PropertyRef Name="Id" />
     </Key>
-    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Text" Type="nvarchar" MaxLength="400" Nullable="false" />
     <Property Name="ChapterId" Type="int" Nullable="false" />
   </EntityType>
@@ -33,6 +33,16 @@
     <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="version" Type="int" />
     <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TestingResults">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Mark" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Chapter" Type="nvarchar" MaxLength="300" Nullable="false" />
   </EntityType>
   <EntityType Name="UserProfile">
     <Key>
@@ -72,6 +82,18 @@
       </Principal>
       <Dependent Role="Questions">
         <PropertyRef Name="ChapterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TestingResults_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="TestingResults" Type="Self.TestingResults" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TestingResults">
+        <PropertyRef Name="UserId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -123,6 +145,7 @@
     <EntitySet Name="Chapters" EntityType="Self.Chapters" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Questions" EntityType="Self.Questions" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TestingResults" EntityType="Self.TestingResults" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_Answers_Questions" Association="Self.FK_Answers_Questions">
@@ -132,6 +155,10 @@
     <AssociationSet Name="FK_Questions_Chapters" Association="Self.FK_Questions_Chapters">
       <End Role="Chapters" EntitySet="Chapters" />
       <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TestingResults_Users" Association="Self.FK_TestingResults_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="TestingResults" EntitySet="TestingResults" />
     </AssociationSet>
     <AssociationSet Name="FK_UserProfile_Users" Association="Self.FK_UserProfile_Users">
       <End Role="Users" EntitySet="Users" />

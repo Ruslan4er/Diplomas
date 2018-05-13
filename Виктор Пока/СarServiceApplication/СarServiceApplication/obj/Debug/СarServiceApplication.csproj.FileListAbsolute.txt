@@ -56,3 +56,10 @@ D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplic
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\EntityFramework.SqlServer.xml
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\obj\Debug\СarServiceApplication.TestsForm.resources
 D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\Telerik.WinControls.Themes.MaterialBlueGrey.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\Interop.WMPLib.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\bin\Debug\AxInterop.WMPLib.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\obj\Debug\Interop.WMPLib.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\obj\Debug\AxInterop.WMPLib.dll
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\obj\Debug\СarServiceApplication.csproj.ResolveComReference.cache
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\obj\Debug\СarServiceApplication.VideoForm.resources
+D:\Дипломы(работа)\Diplomas\Виктор Пока\СarServiceApplication\СarServiceApplication\obj\Debug\СarServiceApplication.AccountForm.resources

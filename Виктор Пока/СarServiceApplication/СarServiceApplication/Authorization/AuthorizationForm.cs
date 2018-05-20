@@ -16,6 +16,7 @@ namespace СarServiceApplication.Authorization
         public AuthorizationForm()
         {
             InitializeComponent();
+            Аuthorization("23", "23");
         }
 
         private static bool Аuthorization(string login, string password)
@@ -23,7 +24,8 @@ namespace СarServiceApplication.Authorization
             using (var context = new CarServiceDBEntities())
             {
                 var user = context.Users.FirstOrDefault(u => u.Login == login);
-                UserData.UserId = user.Id;
+                if (user != null)
+                    UserData.UserId = user.Id;
                 return user != null && user.Password == password;
                 //_userName = user.UserProfile.Name;
             }

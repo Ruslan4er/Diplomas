@@ -33,6 +33,7 @@
             this.radSplitContainer1 = new Telerik.WinControls.UI.RadSplitContainer();
             this.splitPanel1 = new Telerik.WinControls.UI.SplitPanel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.WatchVideoButton = new System.Windows.Forms.Button();
             this.BackPicButton = new System.Windows.Forms.Button();
             this.NextPicButton = new System.Windows.Forms.Button();
             this.TheoryPictureBox = new System.Windows.Forms.PictureBox();
@@ -40,7 +41,6 @@
             this.splitPanel2 = new Telerik.WinControls.UI.SplitPanel();
             this.MainMenuButton = new System.Windows.Forms.Button();
             this.TestButton = new System.Windows.Forms.Button();
-            this.WatchVideoButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.radCarousel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radSplitContainer1)).BeginInit();
             this.radSplitContainer1.SuspendLayout();
@@ -123,26 +123,43 @@
             this.splitContainer1.SplitterDistance = 523;
             this.splitContainer1.TabIndex = 0;
             // 
+            // WatchVideoButton
+            // 
+            this.WatchVideoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.WatchVideoButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.WatchVideoButton.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WatchVideoButton.Location = new System.Drawing.Point(189, 449);
+            this.WatchVideoButton.Name = "WatchVideoButton";
+            this.WatchVideoButton.Size = new System.Drawing.Size(150, 54);
+            this.WatchVideoButton.TabIndex = 4;
+            this.WatchVideoButton.Text = "Видео";
+            this.WatchVideoButton.UseVisualStyleBackColor = false;
+            this.WatchVideoButton.Click += new System.EventHandler(this.WatchVideoButton_Click);
+            // 
             // BackPicButton
             // 
-            this.BackPicButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BackPicButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackPicButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BackPicButton.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BackPicButton.Location = new System.Drawing.Point(12, 449);
             this.BackPicButton.Name = "BackPicButton";
             this.BackPicButton.Size = new System.Drawing.Size(150, 54);
             this.BackPicButton.TabIndex = 3;
             this.BackPicButton.Text = "Назад";
-            this.BackPicButton.UseVisualStyleBackColor = true;
+            this.BackPicButton.UseVisualStyleBackColor = false;
             this.BackPicButton.Click += new System.EventHandler(this.BackPicButton_Click);
             // 
             // NextPicButton
             // 
-            this.NextPicButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextPicButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.NextPicButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NextPicButton.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NextPicButton.Location = new System.Drawing.Point(363, 449);
             this.NextPicButton.Name = "NextPicButton";
             this.NextPicButton.Size = new System.Drawing.Size(150, 54);
             this.NextPicButton.TabIndex = 2;
             this.NextPicButton.Text = "Вперед";
-            this.NextPicButton.UseVisualStyleBackColor = true;
+            this.NextPicButton.UseVisualStyleBackColor = false;
             this.NextPicButton.Click += new System.EventHandler(this.NextPicButton_Click);
             // 
             // TheoryPictureBox
@@ -184,41 +201,35 @@
             // 
             // MainMenuButton
             // 
-            this.MainMenuButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MainMenuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.MainMenuButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.MainMenuButton.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuButton.Location = new System.Drawing.Point(280, 33);
             this.MainMenuButton.Name = "MainMenuButton";
             this.MainMenuButton.Size = new System.Drawing.Size(208, 78);
             this.MainMenuButton.TabIndex = 0;
             this.MainMenuButton.Text = "В меню";
-            this.MainMenuButton.UseVisualStyleBackColor = true;
+            this.MainMenuButton.UseVisualStyleBackColor = false;
             this.MainMenuButton.Click += new System.EventHandler(this.MainMenuButton_Click);
             // 
             // TestButton
             // 
-            this.TestButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TestButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.TestButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.TestButton.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TestButton.Location = new System.Drawing.Point(737, 33);
             this.TestButton.Name = "TestButton";
             this.TestButton.Size = new System.Drawing.Size(208, 78);
             this.TestButton.TabIndex = 1;
             this.TestButton.Text = "Пройти тест";
-            this.TestButton.UseVisualStyleBackColor = true;
+            this.TestButton.UseVisualStyleBackColor = false;
             this.TestButton.Click += new System.EventHandler(this.TestButton_Click);
-            // 
-            // WatchVideoButton
-            // 
-            this.WatchVideoButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.WatchVideoButton.Location = new System.Drawing.Point(189, 449);
-            this.WatchVideoButton.Name = "WatchVideoButton";
-            this.WatchVideoButton.Size = new System.Drawing.Size(150, 54);
-            this.WatchVideoButton.TabIndex = 4;
-            this.WatchVideoButton.Text = "Видео";
-            this.WatchVideoButton.UseVisualStyleBackColor = true;
-            this.WatchVideoButton.Click += new System.EventHandler(this.WatchVideoButton_Click);
             // 
             // TheoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(158)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(1350, 681);
             this.Controls.Add(this.radSplitContainer1);
             this.Name = "TheoryForm";

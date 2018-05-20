@@ -28,6 +28,7 @@ namespace СarServiceApplication
                 NextQuestion();
             else
                 NextQuestionButton.Enabled = false;
+            CloseButton.Enabled = false;
         }
 
         private void FillData(int chapterId)
@@ -80,6 +81,8 @@ namespace СarServiceApplication
                 Answer3RadioButton.Hide();
 
                 SaveResult();
+                CloseButton.Enabled = true;
+                NextQuestionButton.Enabled = false;
                 return;
             }
             if (questionId == questions.Count - 1)
@@ -93,7 +96,7 @@ namespace СarServiceApplication
             CheckAnswer();
             questionId++;
             QuestionCounterLabel.Text = $@"Вопрос {questionId} из {questions.Count}";
-            }
+        }
 
 
         private bool AnswerIsSelected()
@@ -136,7 +139,7 @@ namespace СarServiceApplication
         {
             if (!AnswerIsSelected())
             {
-                MessageBox.Show(@"Не выбран ни один ответ!", "", MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                MessageBox.Show(@"Не выбран ни один ответ!", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             NextQuestion();

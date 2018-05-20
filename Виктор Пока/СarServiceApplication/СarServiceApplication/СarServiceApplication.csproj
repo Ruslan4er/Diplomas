@@ -200,5 +200,11 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\общий фон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\фон для теста.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

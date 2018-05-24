@@ -1,0 +1,10 @@
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Debug\TechnologicalEqueipAppDAL.dll.config
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Debug\TechnologicalEqueipAppDAL.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Debug\TechnologicalEqueipAppDAL.pdb
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Debug\EntityFramework.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Debug\EntityFramework.xml
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\obj\Debug\TechnologicalEqueipAppDAL.csproj.CoreCompileInputs.cache
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\obj\Debug\TechnologicalEqueipAppDAL.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\obj\Debug\TechnologicalEqueipAppDAL.pdb

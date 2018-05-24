@@ -1,4 +1,5 @@
-﻿using CarStructureDAL;
+﻿using System;
+using CarStructureDAL;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -8,13 +9,16 @@ namespace CarStructureApp
 {
     public partial class TestForm : Form
     {
+        private bool isSaved;
+
         private List<Question> _questions;
         private List<List<Answer>> _answers;
         private int _questionId;
         private int _correctAnswers;
 
-        public TestForm(int chapterId)
+        public TestForm(int chapterId, bool isSaved)
         {
+            this.isSaved = isSaved;
             InitializeComponent();
             FillData(chapterId);
             if (_questions.Count != 0)
@@ -37,7 +41,7 @@ namespace CarStructureApp
                 _answers = new List<List<Answer>>();
                 foreach (var question in _questions)
                     _answers.Add(new List<Answer>(question.Answers));
-                TopicLabel.Text = context.Chapters.Find(chapterId)?.Name;
+
             }
         }
 
@@ -73,6 +77,9 @@ namespace CarStructureApp
                 Answer2RadioButton.Hide();
                 Answer3RadioButton.Hide();
 
+                if (isSaved)
+                    SaveResult();
+                
                 return;
             }
             if (_questionId == _questions.Count - 1)
@@ -89,6 +96,29 @@ namespace CarStructureApp
 
         }
 
+
+        private void SaveResult()
+        {
+            using (var context = new СarStructureDBEntities())
+            {
+                try
+                {
+                    //context.TestingResults.Add(new TestingResult
+                    //{
+                    //    Date = DateTime.Now,
+                    //    Mark = correctAnswers,
+                    //    UserId = UserData.UserId,
+                    //    Chapter = chapterName
+                    //});
+                    //context.SaveChanges();
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show(@"Результат не сохранён. Авторизируйтесь!");
+                    MessageBox.Show(e.Message);
+                }
+            }
+        }
         private void NextQuestionButton_Click(object sender, System.EventArgs e)
         {
             NextQuestion();

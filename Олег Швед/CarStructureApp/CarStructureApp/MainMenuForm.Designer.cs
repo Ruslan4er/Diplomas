@@ -36,6 +36,7 @@
             this.OpenTestingFormLinkLabel = new System.Windows.Forms.LinkLabel();
             this.OpenVideoFormLinkLabel = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -46,28 +47,34 @@
             // 
             // splitContainer1
             // 
+            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.PowderBlue;
             this.splitContainer1.Panel1.Controls.Add(this.panel1);
             this.splitContainer1.Panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.BackColor = System.Drawing.Color.PowderBlue;
             this.splitContainer1.Panel2.Controls.Add(this.panel2);
             this.splitContainer1.Size = new System.Drawing.Size(1350, 681);
-            this.splitContainer1.SplitterDistance = 694;
+            this.splitContainer1.SplitterDistance = 656;
             this.splitContainer1.TabIndex = 0;
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Honeydew;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.OpenChaptersFormLinkLabel);
-            this.panel1.Location = new System.Drawing.Point(209, 157);
+            this.panel1.Controls.Add(this.OpenVideoFormLinkLabel);
+            this.panel1.Location = new System.Drawing.Point(195, 157);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(336, 293);
             this.panel1.TabIndex = 9;
@@ -96,9 +103,10 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Honeydew;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.linkLabel1);
             this.panel2.Controls.Add(this.OpenTestingFormLinkLabel);
-            this.panel2.Controls.Add(this.OpenVideoFormLinkLabel);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(142, 157);
             this.panel2.Name = "panel2";
@@ -109,19 +117,19 @@
             // 
             this.OpenTestingFormLinkLabel.AutoSize = true;
             this.OpenTestingFormLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.OpenTestingFormLinkLabel.Location = new System.Drawing.Point(93, 149);
+            this.OpenTestingFormLinkLabel.Location = new System.Drawing.Point(93, 92);
             this.OpenTestingFormLinkLabel.Name = "OpenTestingFormLinkLabel";
-            this.OpenTestingFormLinkLabel.Size = new System.Drawing.Size(192, 29);
+            this.OpenTestingFormLinkLabel.Size = new System.Drawing.Size(199, 58);
             this.OpenTestingFormLinkLabel.TabIndex = 6;
             this.OpenTestingFormLinkLabel.TabStop = true;
-            this.OpenTestingFormLinkLabel.Text = "Тестирование";
+            this.OpenTestingFormLinkLabel.Text = "Тестирование \r\nна оценку\r\n";
             this.OpenTestingFormLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenTestingFormLinkLabel_LinkClicked);
             // 
             // OpenVideoFormLinkLabel
             // 
             this.OpenVideoFormLinkLabel.AutoSize = true;
             this.OpenVideoFormLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.OpenVideoFormLinkLabel.Location = new System.Drawing.Point(93, 105);
+            this.OpenVideoFormLinkLabel.Location = new System.Drawing.Point(101, 161);
             this.OpenVideoFormLinkLabel.Name = "OpenVideoFormLinkLabel";
             this.OpenVideoFormLinkLabel.Size = new System.Drawing.Size(182, 29);
             this.OpenVideoFormLinkLabel.TabIndex = 5;
@@ -132,16 +140,29 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(92, 11);
+            this.label4.Location = new System.Drawing.Point(80, 11);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(172, 33);
             this.label4.TabIndex = 2;
             this.label4.Text = "Практикум";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.linkLabel1.Location = new System.Drawing.Point(93, 186);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(139, 29);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Тренажер";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(1350, 681);
             this.Controls.Add(this.splitContainer1);
             this.MaximizeBox = false;
@@ -171,5 +192,6 @@
         private System.Windows.Forms.LinkLabel OpenVideoFormLinkLabel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

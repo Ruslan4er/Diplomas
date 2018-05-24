@@ -1,27 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CarStructureApp
 {
     public partial class TestingMenuForm : Form
     {
-        public TestingMenuForm()
-        {
-            InitializeComponent();
+        private readonly bool isSaved;
 
+        public TestingMenuForm(bool isSaved)
+        {
+            this.isSaved = isSaved;
+            InitializeComponent();
         }
 
         private void OpenTestForm(int chapter)
         {
-            var frm = new TestForm(chapter);
+            var frm = new TestForm(chapter,isSaved);
             frm.ShowDialog();
         }
 
@@ -73,12 +67,17 @@ namespace CarStructureApp
         private void RandomTestButton_Click(object sender, EventArgs e)
         {
             var rnd = new Random();
-            OpenTestForm(rnd.Next(0,9));
+            OpenTestForm(rnd.Next(0, 9));
         }
 
         private void ToMainMenuButton_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void FinalTestButton_Click(object sender, EventArgs e)
+        {
+            OpenTestForm(10);
         }
     }
 }

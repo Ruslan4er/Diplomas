@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologicalEquipApp", "TechnologicalEquipApp\TechnologicalEquipApp.csproj", "{F003819C-34DD-4F4D-ACE3-7C18C52B7357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnologicalEqueipAppDAL", "TechnologicalEqueipAppDAL\TechnologicalEqueipAppDAL.csproj", "{9BC230B4-DED0-444C-AF12-84445116B5BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F003819C-34DD-4F4D-ACE3-7C18C52B7357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F003819C-34DD-4F4D-ACE3-7C18C52B7357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F003819C-34DD-4F4D-ACE3-7C18C52B7357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC230B4-DED0-444C-AF12-84445116B5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC230B4-DED0-444C-AF12-84445116B5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC230B4-DED0-444C-AF12-84445116B5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC230B4-DED0-444C-AF12-84445116B5BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

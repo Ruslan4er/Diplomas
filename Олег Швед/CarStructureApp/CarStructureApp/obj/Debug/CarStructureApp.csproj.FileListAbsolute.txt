@@ -41,3 +41,12 @@ D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarSt
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.TestForm.resources
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.TestingMenuForm.resources
 D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.PersomalCabinetForm.resources
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\Interop.WMPLib.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\AxInterop.Microsoft.Vbe.Interop.Forms.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\bin\Debug\AxInterop.WMPLib.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\Interop.WMPLib.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\AxInterop.Microsoft.Vbe.Interop.Forms.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\AxInterop.WMPLib.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.csproj.ResolveComReference.cache
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.ChooseVideoForm.resources
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureApp\obj\Debug\CarStructureApp.PlayVideoForm.resources

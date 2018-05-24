@@ -15,37 +15,49 @@ namespace TechnologicalEquipApp
         public TheoryForm()
         {
             InitializeComponent();
-            theoryContainer = new TheoryContainer();
+            SetTheoryFile();
         }
-
-        private readonly TheoryContainer theoryContainer;
 
         private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
         {
 
         }
 
-        private void SetTheoryFile(string name)
+        private void SetTheoryFile()
         {
-            var path = GetTheoryPath(name);
-            if (string.IsNullOrEmpty(path))
-                return;
-            TheoryPdfViewer.LoadDocument(path);
+            TheoryPdfViewer.LoadDocument(Application.StartupPath + "\\Content\\Theory\\book.pdf");
         }
 
-        private string GetTheoryPath(string name)
-        {
-            string path = null;
-            foreach (var theory in theoryContainer.TheoryList)
-                if (theory.Name == name)
-                    path = theory.Path;
-            return path;
-        }
+
 
         private void ContentTreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            var selectedNode = ContentTreeView.SelectedNode.Name;
-            SetTheoryFile(selectedNode);
+            //var selectedNode = ContentTreeView.SelectedNode.Name;
+            //SetTheoryFile(selectedNode);
+        }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void OpenTestsFormButton_Click(object sender, EventArgs e)
+        {
+            var frm = new TestsForm();
+            frm.Show();
+            this.Close();
+        }
+
+        private void CloseAppButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void OpenUserProfileButton_Click(object sender, EventArgs e)
+        {
+            var frm = new UserProfileForm();
+            frm.Show();
+            this.Close();
         }
     }
 }

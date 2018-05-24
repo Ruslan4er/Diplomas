@@ -25,7 +25,13 @@ namespace CarStructureApp
 
         private void OpenTestingFormLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            var frm = new TestingMenuForm();
+            var frm = new TestingMenuForm(true);
+            frm.ShowDialog();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var frm = new TestingMenuForm(false);
             frm.ShowDialog();
         }
     }

@@ -91,5 +91,10 @@ namespace CarStructureApp
         {
             DialogResult = DialogResult.Cancel;
         }
+
+        private void RegistrationForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

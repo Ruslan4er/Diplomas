@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TechnologicalEquipApp.Authorization;
 
 namespace TechnologicalEquipApp
 {
@@ -16,7 +17,8 @@ namespace TechnologicalEquipApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainMenuForm());
+            //Application.Run(new MainMenuForm());
+            Application.Run(new AuthorizationForm());
         }
     }
 }

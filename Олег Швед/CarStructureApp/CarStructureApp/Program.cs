@@ -17,7 +17,7 @@ namespace CarStructureApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PersomalCabinetForm());
+            Application.Run(new AuthorizationForm());
         }
     }
 }

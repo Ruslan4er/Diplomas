@@ -1,4 +1,3 @@
-D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEquipApp.exe.config
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEquipApp.exe
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEquipApp.pdb
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.csprojResolveAssemblyReference.cache
@@ -24,3 +23,14 @@ D:\Дипломы(работа)\Diplomas\Алексей Раманович\Techn
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.exe.licenses
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.MainMenuForm.resources
 D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.TestsForm.resources
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.UserProfileForm.resources
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\EntityFramework.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEqueipAppDAL.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEqueipAppDAL.pdb
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEqueipAppDAL.dll.config
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\EntityFramework.xml
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\bin\Debug\TechnologicalEquipApp.exe.config
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.Authorization.AuthorizationForm.resources
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEquipApp\obj\Debug\TechnologicalEquipApp.Authorization.RegistrationNewUserForm.resources

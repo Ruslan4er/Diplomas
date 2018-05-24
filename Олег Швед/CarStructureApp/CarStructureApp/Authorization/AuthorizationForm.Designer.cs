@@ -59,7 +59,7 @@
             // 
             this.RegistrationLinkLabel.AutoSize = true;
             this.RegistrationLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RegistrationLinkLabel.Location = new System.Drawing.Point(91, 175);
+            this.RegistrationLinkLabel.Location = new System.Drawing.Point(91, 210);
             this.RegistrationLinkLabel.Name = "RegistrationLinkLabel";
             this.RegistrationLinkLabel.Size = new System.Drawing.Size(95, 18);
             this.RegistrationLinkLabel.TabIndex = 4;
@@ -69,13 +69,14 @@
             // 
             // AuthorizationButton
             // 
-            this.AuthorizationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.AuthorizationButton.Location = new System.Drawing.Point(51, 138);
+            this.AuthorizationButton.BackColor = System.Drawing.Color.PowderBlue;
+            this.AuthorizationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AuthorizationButton.Location = new System.Drawing.Point(44, 143);
             this.AuthorizationButton.Name = "AuthorizationButton";
-            this.AuthorizationButton.Size = new System.Drawing.Size(162, 34);
+            this.AuthorizationButton.Size = new System.Drawing.Size(181, 55);
             this.AuthorizationButton.TabIndex = 3;
             this.AuthorizationButton.Text = "Вход";
-            this.AuthorizationButton.UseVisualStyleBackColor = true;
+            this.AuthorizationButton.UseVisualStyleBackColor = false;
             this.AuthorizationButton.Click += new System.EventHandler(this.AuthorizationButton_Click);
             // 
             // PasswordTextBox
@@ -112,7 +113,8 @@
             this.AcceptButton = this.AuthorizationButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(259, 211);
+            this.BackColor = System.Drawing.Color.Honeydew;
+            this.ClientSize = new System.Drawing.Size(259, 237);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.label2);
@@ -120,10 +122,9 @@
             this.Controls.Add(this.RegistrationLinkLabel);
             this.Controls.Add(this.LoginTextBox);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(275, 250);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(275, 250);
             this.Name = "AuthorizationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);

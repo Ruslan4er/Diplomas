@@ -17,16 +17,30 @@ namespace TechnologicalEquipApp
             InitializeComponent();
         }
 
-        private void TheoryButton_Click(object sender, EventArgs e)
-        {
-            var frm = new TheoryForm();
-            frm.ShowDialog();
-        }
-
         private void TestsButton_Click(object sender, EventArgs e)
         {
             var frm = new TestsForm();
-            frm.ShowDialog();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void OpenTheoryFormButton_Click(object sender, EventArgs e)
+        {
+            var frm = new TheoryForm();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void OpenUserProfileForm_Click(object sender, EventArgs e)
+        {
+            var frm = new UserProfileForm();
+            frm.Show();
+            this.Hide();
         }
     }
 }

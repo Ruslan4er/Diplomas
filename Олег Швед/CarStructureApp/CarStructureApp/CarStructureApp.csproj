@@ -72,6 +72,7 @@
     <Compile Include="Authorization\AuthorizationForm.Designer.cs">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Authorization\UserData.cs" />
     <Compile Include="ChooseVideoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +147,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Authorization\RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
@@ -159,6 +161,7 @@
     <EmbeddedResource Include="TheoryForm.resx">
       <DependentUpon>TheoryForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -223,6 +226,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

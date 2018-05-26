@@ -32,11 +32,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.OpenChaptersFormLinkLabel = new System.Windows.Forms.LinkLabel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.OpenTestingFormLinkLabel = new System.Windows.Forms.LinkLabel();
             this.OpenVideoFormLinkLabel = new System.Windows.Forms.LinkLabel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.OpenPersonalPageFormlinkLabel = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.OpenTestingFormLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -101,30 +102,6 @@
             this.OpenChaptersFormLinkLabel.Text = "Разделы";
             this.OpenChaptersFormLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenChaptersFormLinkLabel_LinkClicked);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Honeydew;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.linkLabel1);
-            this.panel2.Controls.Add(this.OpenTestingFormLinkLabel);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(142, 157);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(336, 293);
-            this.panel2.TabIndex = 10;
-            // 
-            // OpenTestingFormLinkLabel
-            // 
-            this.OpenTestingFormLinkLabel.AutoSize = true;
-            this.OpenTestingFormLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.OpenTestingFormLinkLabel.Location = new System.Drawing.Point(93, 92);
-            this.OpenTestingFormLinkLabel.Name = "OpenTestingFormLinkLabel";
-            this.OpenTestingFormLinkLabel.Size = new System.Drawing.Size(199, 58);
-            this.OpenTestingFormLinkLabel.TabIndex = 6;
-            this.OpenTestingFormLinkLabel.TabStop = true;
-            this.OpenTestingFormLinkLabel.Text = "Тестирование \r\nна оценку\r\n";
-            this.OpenTestingFormLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenTestingFormLinkLabel_LinkClicked);
-            // 
             // OpenVideoFormLinkLabel
             // 
             this.OpenVideoFormLinkLabel.AutoSize = true;
@@ -135,6 +112,57 @@
             this.OpenVideoFormLinkLabel.TabIndex = 5;
             this.OpenVideoFormLinkLabel.TabStop = true;
             this.OpenVideoFormLinkLabel.Text = "Видеоролики";
+            this.OpenVideoFormLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenVideoFormLinkLabel_LinkClicked);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Honeydew;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.OpenPersonalPageFormlinkLabel);
+            this.panel2.Controls.Add(this.linkLabel1);
+            this.panel2.Controls.Add(this.OpenTestingFormLinkLabel);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Location = new System.Drawing.Point(142, 157);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(336, 293);
+            this.panel2.TabIndex = 10;
+            // 
+            // OpenPersonalPageFormlinkLabel
+            // 
+            this.OpenPersonalPageFormlinkLabel.AutoSize = true;
+            this.OpenPersonalPageFormlinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.OpenPersonalPageFormlinkLabel.Location = new System.Drawing.Point(73, 232);
+            this.OpenPersonalPageFormlinkLabel.Name = "OpenPersonalPageFormlinkLabel";
+            this.OpenPersonalPageFormlinkLabel.Size = new System.Drawing.Size(219, 29);
+            this.OpenPersonalPageFormlinkLabel.TabIndex = 8;
+            this.OpenPersonalPageFormlinkLabel.TabStop = true;
+            this.OpenPersonalPageFormlinkLabel.Text = "Личный кабинет";
+            this.OpenPersonalPageFormlinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenPersonalPageFormlinkLabel_LinkClicked);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.linkLabel1.Location = new System.Drawing.Point(81, 170);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(139, 29);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Тренажер";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // OpenTestingFormLinkLabel
+            // 
+            this.OpenTestingFormLinkLabel.AutoSize = true;
+            this.OpenTestingFormLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.OpenTestingFormLinkLabel.Location = new System.Drawing.Point(81, 91);
+            this.OpenTestingFormLinkLabel.Name = "OpenTestingFormLinkLabel";
+            this.OpenTestingFormLinkLabel.Size = new System.Drawing.Size(199, 58);
+            this.OpenTestingFormLinkLabel.TabIndex = 6;
+            this.OpenTestingFormLinkLabel.TabStop = true;
+            this.OpenTestingFormLinkLabel.Text = "Тестирование \r\nна оценку\r\n";
+            this.OpenTestingFormLinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.OpenTestingFormLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenTestingFormLinkLabel_LinkClicked);
             // 
             // label4
             // 
@@ -145,18 +173,6 @@
             this.label4.Size = new System.Drawing.Size(172, 33);
             this.label4.TabIndex = 2;
             this.label4.Text = "Практикум";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkLabel1.Location = new System.Drawing.Point(93, 186);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(139, 29);
-            this.linkLabel1.TabIndex = 7;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Тренажер";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // MainMenuForm
             // 
@@ -193,5 +209,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel OpenPersonalPageFormlinkLabel;
     }
 }

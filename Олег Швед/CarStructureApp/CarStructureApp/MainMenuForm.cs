@@ -34,5 +34,17 @@ namespace CarStructureApp
             var frm = new TestingMenuForm(false);
             frm.ShowDialog();
         }
+
+        private void OpenPersonalPageFormlinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var frm = new PersomalCabinetForm();
+            frm.ShowDialog();
+        }
+
+        private void OpenVideoFormLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var frm = new ChooseVideoForm();
+            frm.ShowDialog();
+        }
     }
 }

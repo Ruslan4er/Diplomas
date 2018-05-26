@@ -1,0 +1,10 @@
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\bin\Release\CarStructureDAL.dll.config
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\bin\Release\CarStructureDAL.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\bin\Release\CarStructureDAL.pdb
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\bin\Release\EntityFramework.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\bin\Release\EntityFramework.SqlServer.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\bin\Release\EntityFramework.xml
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\bin\Release\EntityFramework.SqlServer.xml
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\obj\Release\CarStructureDAL.csproj.CoreCompileInputs.cache
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\obj\Release\CarStructureDAL.dll
+D:\Дипломы(работа)\Diplomas\Олег Швед\CarStructureApp\CarStructureDAL\obj\Release\CarStructureDAL.pdb

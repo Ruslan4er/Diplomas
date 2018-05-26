@@ -55,13 +55,13 @@ namespace СarServiceApplication
                 if (answer.IsCorrect)
                     correctAnswer = answer;
 
-            if (Answer1RadioButton.Checked && Answer1RadioButton.Text == correctAnswer.Text)
+            if (Answer1RadioButton.Checked && Answer1RadioButton.Text == correctAnswer?.Text)
                 correctAnswers++;
 
-            if (Answer2RadioButton.Checked && Answer2RadioButton.Text == correctAnswer.Text)
+            if (Answer2RadioButton.Checked && Answer2RadioButton.Text == correctAnswer?.Text)
                 correctAnswers++;
 
-            if (Answer3RadioButton.Checked && Answer3RadioButton.Text == correctAnswer.Text)
+            if (Answer3RadioButton.Checked && Answer3RadioButton.Text == correctAnswer?.Text)
                 correctAnswers++;
 
 

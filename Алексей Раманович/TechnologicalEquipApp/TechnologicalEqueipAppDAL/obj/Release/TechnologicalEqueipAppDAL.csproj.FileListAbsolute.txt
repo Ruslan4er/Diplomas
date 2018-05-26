@@ -1,0 +1,11 @@
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Release\TechnologicalEqueipAppDAL.dll.config
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Release\TechnologicalEqueipAppDAL.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Release\TechnologicalEqueipAppDAL.pdb
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Release\EntityFramework.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Release\EntityFramework.SqlServer.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Release\EntityFramework.xml
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\bin\Release\EntityFramework.SqlServer.xml
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\obj\Release\TechnologicalEqueipAppDAL.csprojResolveAssemblyReference.cache
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\obj\Release\TechnologicalEqueipAppDAL.csproj.CoreCompileInputs.cache
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\obj\Release\TechnologicalEqueipAppDAL.dll
+D:\Дипломы(работа)\Diplomas\Алексей Раманович\TechnologicalEquipApp\TechnologicalEqueipAppDAL\obj\Release\TechnologicalEqueipAppDAL.pdb

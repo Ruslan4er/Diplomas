@@ -17,6 +17,9 @@ namespace CarStructureDAL
         public int Id { get; set; }
         public System.DateTime Date { get; set; }
         public int Mark { get; set; }
-        public bool IsCompleted { get; set; }
+        public int UserId { get; set; }
+        public string Chapter { get; set; }
+    
+        public virtual User User { get; set; }
     }
 }

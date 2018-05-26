@@ -68,12 +68,10 @@
             treeNode20});
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.CloseAppButton = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.OpenUserProfileButton = new System.Windows.Forms.Button();
             this.OpenTestsForm = new System.Windows.Forms.Button();
             this.OpenTheoryFormButton = new System.Windows.Forms.Button();
@@ -107,12 +105,10 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.label5);
-            this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             this.splitContainer1.Panel1.Controls.Add(this.CloseAppButton);
-            this.splitContainer1.Panel1.Controls.Add(this.button4);
             this.splitContainer1.Panel1.Controls.Add(this.OpenUserProfileButton);
             this.splitContainer1.Panel1.Controls.Add(this.OpenTestsForm);
             this.splitContainer1.Panel1.Controls.Add(this.OpenTheoryFormButton);
@@ -128,21 +124,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(748, 120);
+            this.label5.Location = new System.Drawing.Point(589, 120);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 24);
             this.label5.TabIndex = 19;
             this.label5.Text = "Выход";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(581, 120);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 24);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Печать";
             // 
             // label3
             // 
@@ -178,24 +164,13 @@
             // 
             this.CloseAppButton.BackgroundImage = global::TechnologicalEquipApp.Properties.Resources.power;
             this.CloseAppButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CloseAppButton.Location = new System.Drawing.Point(721, 11);
+            this.CloseAppButton.Location = new System.Drawing.Point(562, 11);
             this.CloseAppButton.Name = "CloseAppButton";
             this.CloseAppButton.Size = new System.Drawing.Size(126, 106);
             this.CloseAppButton.TabIndex = 14;
             this.CloseAppButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CloseAppButton.UseVisualStyleBackColor = true;
             this.CloseAppButton.Click += new System.EventHandler(this.CloseAppButton_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::TechnologicalEquipApp.Properties.Resources.печать;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(559, 11);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(126, 106);
-            this.button4.TabIndex = 13;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // OpenUserProfileButton
             // 
@@ -433,12 +408,10 @@
         private System.Windows.Forms.RadioButton Answer2RadioButton;
         private System.Windows.Forms.RadioButton Answer1RadioButton;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button CloseAppButton;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button OpenUserProfileButton;
         private System.Windows.Forms.Button OpenTestsForm;
         private System.Windows.Forms.Button OpenTheoryFormButton;

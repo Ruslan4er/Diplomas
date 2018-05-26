@@ -29,17 +29,15 @@
         private void InitializeComponent()
         {
             this.ToMainMenuButton = new System.Windows.Forms.Button();
-            this.FinalTestButton = new System.Windows.Forms.Button();
-            this.RandomTestButton = new System.Windows.Forms.Button();
-            this.Test9Button = new System.Windows.Forms.Button();
-            this.Test8Button = new System.Windows.Forms.Button();
-            this.Test7Button = new System.Windows.Forms.Button();
-            this.Test6Button = new System.Windows.Forms.Button();
-            this.Test5Button = new System.Windows.Forms.Button();
-            this.Test4Button = new System.Windows.Forms.Button();
-            this.Test3Button = new System.Windows.Forms.Button();
-            this.Test2Button = new System.Windows.Forms.Button();
-            this.Test1Button = new System.Windows.Forms.Button();
+            this.Video9Button = new System.Windows.Forms.Button();
+            this.Video8Button = new System.Windows.Forms.Button();
+            this.Video7Button = new System.Windows.Forms.Button();
+            this.Video6Button = new System.Windows.Forms.Button();
+            this.Video5Button = new System.Windows.Forms.Button();
+            this.Video4Button = new System.Windows.Forms.Button();
+            this.Video3Button = new System.Windows.Forms.Button();
+            this.Video2Button = new System.Windows.Forms.Button();
+            this.Video1Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ToMainMenuButton
@@ -52,139 +50,124 @@
             this.ToMainMenuButton.TabIndex = 23;
             this.ToMainMenuButton.Text = "В главное меню";
             this.ToMainMenuButton.UseVisualStyleBackColor = false;
+            this.ToMainMenuButton.Click += new System.EventHandler(this.ToMainMenuButton_Click);
             // 
-            // FinalTestButton
+            // Video9Button
             // 
-            this.FinalTestButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.FinalTestButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.FinalTestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FinalTestButton.Location = new System.Drawing.Point(843, 489);
-            this.FinalTestButton.Name = "FinalTestButton";
-            this.FinalTestButton.Size = new System.Drawing.Size(319, 152);
-            this.FinalTestButton.TabIndex = 22;
-            this.FinalTestButton.Text = "ИТОГОВЫЙ ТЕСТ";
-            this.FinalTestButton.UseVisualStyleBackColor = false;
-            this.FinalTestButton.Click += new System.EventHandler(this.FinalTestButton_Click);
+            this.Video9Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video9Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video9Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video9Button.Location = new System.Drawing.Point(1000, 337);
+            this.Video9Button.Name = "Video9Button";
+            this.Video9Button.Size = new System.Drawing.Size(319, 152);
+            this.Video9Button.TabIndex = 20;
+            this.Video9Button.Text = "ПРИБОРЫ \r\nСИСТЕМЫ ПИТАНИЯ";
+            this.Video9Button.UseVisualStyleBackColor = false;
+            this.Video9Button.Click += new System.EventHandler(this.Video9Button_Click);
             // 
-            // RandomTestButton
+            // Video8Button
             // 
-            this.RandomTestButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.RandomTestButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.RandomTestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RandomTestButton.Location = new System.Drawing.Point(531, 489);
-            this.RandomTestButton.Name = "RandomTestButton";
-            this.RandomTestButton.Size = new System.Drawing.Size(319, 152);
-            this.RandomTestButton.TabIndex = 21;
-            this.RandomTestButton.Text = "СЛУЧАЙНЫЙ";
-            this.RandomTestButton.UseVisualStyleBackColor = false;
+            this.Video8Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video8Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video8Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video8Button.Location = new System.Drawing.Point(683, 337);
+            this.Video8Button.Name = "Video8Button";
+            this.Video8Button.Size = new System.Drawing.Size(319, 152);
+            this.Video8Button.TabIndex = 19;
+            this.Video8Button.Text = "УСТРОЙСТВО И РАБОТА \r\nКАРБЮРАТОРА";
+            this.Video8Button.UseVisualStyleBackColor = false;
+            this.Video8Button.Click += new System.EventHandler(this.Video8Button_Click);
             // 
-            // Test9Button
+            // Video7Button
             // 
-            this.Test9Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test9Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test9Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test9Button.Location = new System.Drawing.Point(1000, 337);
-            this.Test9Button.Name = "Test9Button";
-            this.Test9Button.Size = new System.Drawing.Size(319, 152);
-            this.Test9Button.TabIndex = 20;
-            this.Test9Button.Text = "ПРИБОРЫ \r\nСИСТЕМЫ ПИТАНИЯ";
-            this.Test9Button.UseVisualStyleBackColor = false;
+            this.Video7Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video7Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video7Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video7Button.Location = new System.Drawing.Point(364, 337);
+            this.Video7Button.Name = "Video7Button";
+            this.Video7Button.Size = new System.Drawing.Size(319, 152);
+            this.Video7Button.TabIndex = 18;
+            this.Video7Button.Text = "УСТРОЙСТВО СИСТЕМЫ \r\nПИТАНИЯ";
+            this.Video7Button.UseVisualStyleBackColor = false;
+            this.Video7Button.Click += new System.EventHandler(this.Video7Button_Click);
             // 
-            // Test8Button
+            // Video6Button
             // 
-            this.Test8Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test8Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test8Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test8Button.Location = new System.Drawing.Point(683, 337);
-            this.Test8Button.Name = "Test8Button";
-            this.Test8Button.Size = new System.Drawing.Size(319, 152);
-            this.Test8Button.TabIndex = 19;
-            this.Test8Button.Text = "УСТРОЙСТВО И РАБОТА \r\nКАРБЮРАТОРА";
-            this.Test8Button.UseVisualStyleBackColor = false;
+            this.Video6Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video6Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video6Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video6Button.Location = new System.Drawing.Point(1000, 189);
+            this.Video6Button.Name = "Video6Button";
+            this.Video6Button.Size = new System.Drawing.Size(319, 152);
+            this.Video6Button.TabIndex = 17;
+            this.Video6Button.Text = "ТЕХНИЧЕСКОЕ \r\nОБСЛУЖИВАНИЕ \r\nМЕХАНИЗМОВ";
+            this.Video6Button.UseVisualStyleBackColor = false;
+            this.Video6Button.Click += new System.EventHandler(this.Video6Button_Click);
             // 
-            // Test7Button
+            // Video5Button
             // 
-            this.Test7Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test7Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test7Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test7Button.Location = new System.Drawing.Point(364, 337);
-            this.Test7Button.Name = "Test7Button";
-            this.Test7Button.Size = new System.Drawing.Size(319, 152);
-            this.Test7Button.TabIndex = 18;
-            this.Test7Button.Text = "УСТРОЙСТВО СИСТЕМЫ \r\nПИТАНИЯ";
-            this.Test7Button.UseVisualStyleBackColor = false;
+            this.Video5Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video5Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video5Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video5Button.Location = new System.Drawing.Point(683, 189);
+            this.Video5Button.Name = "Video5Button";
+            this.Video5Button.Size = new System.Drawing.Size(319, 152);
+            this.Video5Button.TabIndex = 16;
+            this.Video5Button.Text = "ОБСЛУЖИВАНИЕ ДВИГАТЕЛЯ";
+            this.Video5Button.UseVisualStyleBackColor = false;
+            this.Video5Button.Click += new System.EventHandler(this.Video5Button_Click);
             // 
-            // Test6Button
+            // Video4Button
             // 
-            this.Test6Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test6Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test6Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test6Button.Location = new System.Drawing.Point(1000, 189);
-            this.Test6Button.Name = "Test6Button";
-            this.Test6Button.Size = new System.Drawing.Size(319, 152);
-            this.Test6Button.TabIndex = 17;
-            this.Test6Button.Text = "ТЕХНИЧЕСКОЕ \r\nОБСЛУЖИВАНИЕ \r\nМЕХАНИЗМОВ";
-            this.Test6Button.UseVisualStyleBackColor = false;
+            this.Video4Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video4Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video4Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video4Button.Location = new System.Drawing.Point(364, 189);
+            this.Video4Button.Name = "Video4Button";
+            this.Video4Button.Size = new System.Drawing.Size(319, 152);
+            this.Video4Button.TabIndex = 15;
+            this.Video4Button.Text = "СИСТЕМА ОХЛАЖДЕНИЯ";
+            this.Video4Button.UseVisualStyleBackColor = false;
+            this.Video4Button.Click += new System.EventHandler(this.Video4Button_Click);
             // 
-            // Test5Button
+            // Video3Button
             // 
-            this.Test5Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test5Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test5Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test5Button.Location = new System.Drawing.Point(683, 189);
-            this.Test5Button.Name = "Test5Button";
-            this.Test5Button.Size = new System.Drawing.Size(319, 152);
-            this.Test5Button.TabIndex = 16;
-            this.Test5Button.Text = "ОБСЛУЖИВАНИЕ ДВИГАТЕЛЯ";
-            this.Test5Button.UseVisualStyleBackColor = false;
+            this.Video3Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video3Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video3Button.Location = new System.Drawing.Point(1000, 39);
+            this.Video3Button.Name = "Video3Button";
+            this.Video3Button.Size = new System.Drawing.Size(319, 152);
+            this.Video3Button.TabIndex = 14;
+            this.Video3Button.Text = "ГАЗОРАСПРЕДЕЛИТЕЛЬНЫЙ \r\nМЕХАНИЗМ";
+            this.Video3Button.UseVisualStyleBackColor = false;
+            this.Video3Button.Click += new System.EventHandler(this.Video3Button_Click);
             // 
-            // Test4Button
+            // Video2Button
             // 
-            this.Test4Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test4Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test4Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test4Button.Location = new System.Drawing.Point(364, 189);
-            this.Test4Button.Name = "Test4Button";
-            this.Test4Button.Size = new System.Drawing.Size(319, 152);
-            this.Test4Button.TabIndex = 15;
-            this.Test4Button.Text = "СИСТЕМА ОХЛАЖДЕНИЯ";
-            this.Test4Button.UseVisualStyleBackColor = false;
+            this.Video2Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video2Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video2Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video2Button.Location = new System.Drawing.Point(683, 39);
+            this.Video2Button.Name = "Video2Button";
+            this.Video2Button.Size = new System.Drawing.Size(319, 152);
+            this.Video2Button.TabIndex = 13;
+            this.Video2Button.Text = "КРИВОШИПНО-ШАТУННЫЙ \r\nМЕХАНИЗМ";
+            this.Video2Button.UseVisualStyleBackColor = false;
+            this.Video2Button.Click += new System.EventHandler(this.Video2Button_Click);
             // 
-            // Test3Button
+            // Video1Button
             // 
-            this.Test3Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test3Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test3Button.Location = new System.Drawing.Point(1000, 39);
-            this.Test3Button.Name = "Test3Button";
-            this.Test3Button.Size = new System.Drawing.Size(319, 152);
-            this.Test3Button.TabIndex = 14;
-            this.Test3Button.Text = "ГАЗОРАСПРЕДЕЛИТЕЛЬНЫЙ \r\nМЕХАНИЗМ";
-            this.Test3Button.UseVisualStyleBackColor = false;
-            // 
-            // Test2Button
-            // 
-            this.Test2Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test2Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test2Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test2Button.Location = new System.Drawing.Point(683, 39);
-            this.Test2Button.Name = "Test2Button";
-            this.Test2Button.Size = new System.Drawing.Size(319, 152);
-            this.Test2Button.TabIndex = 13;
-            this.Test2Button.Text = "КРИВОШИПНО-ШАТУННЫЙ \r\nМЕХАНИЗМ";
-            this.Test2Button.UseVisualStyleBackColor = false;
-            // 
-            // Test1Button
-            // 
-            this.Test1Button.BackColor = System.Drawing.Color.PowderBlue;
-            this.Test1Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Test1Button.Location = new System.Drawing.Point(364, 39);
-            this.Test1Button.Name = "Test1Button";
-            this.Test1Button.Size = new System.Drawing.Size(319, 152);
-            this.Test1Button.TabIndex = 12;
-            this.Test1Button.Text = "ОБЩЕЕ УСТРОЙСТВО И \r\nРАБОЧИЙ ЦИКЛ ДВИГАТЕЛЯ";
-            this.Test1Button.UseVisualStyleBackColor = false;
+            this.Video1Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video1Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Video1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video1Button.Location = new System.Drawing.Point(364, 39);
+            this.Video1Button.Name = "Video1Button";
+            this.Video1Button.Size = new System.Drawing.Size(319, 152);
+            this.Video1Button.TabIndex = 12;
+            this.Video1Button.Text = "ОБЩЕЕ УСТРОЙСТВО И \r\nРАБОЧИЙ ЦИКЛ ДВИГАТЕЛЯ";
+            this.Video1Button.UseVisualStyleBackColor = false;
+            this.Video1Button.Click += new System.EventHandler(this.Video1Button_Click);
             // 
             // ChooseVideoForm
             // 
@@ -192,19 +175,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1320, 681);
             this.Controls.Add(this.ToMainMenuButton);
-            this.Controls.Add(this.FinalTestButton);
-            this.Controls.Add(this.RandomTestButton);
-            this.Controls.Add(this.Test9Button);
-            this.Controls.Add(this.Test8Button);
-            this.Controls.Add(this.Test7Button);
-            this.Controls.Add(this.Test6Button);
-            this.Controls.Add(this.Test5Button);
-            this.Controls.Add(this.Test4Button);
-            this.Controls.Add(this.Test3Button);
-            this.Controls.Add(this.Test2Button);
-            this.Controls.Add(this.Test1Button);
+            this.Controls.Add(this.Video9Button);
+            this.Controls.Add(this.Video8Button);
+            this.Controls.Add(this.Video7Button);
+            this.Controls.Add(this.Video6Button);
+            this.Controls.Add(this.Video5Button);
+            this.Controls.Add(this.Video4Button);
+            this.Controls.Add(this.Video3Button);
+            this.Controls.Add(this.Video2Button);
+            this.Controls.Add(this.Video1Button);
             this.Name = "ChooseVideoForm";
             this.Text = "ChooseVideoForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
@@ -212,16 +194,14 @@
         #endregion
 
         private System.Windows.Forms.Button ToMainMenuButton;
-        private System.Windows.Forms.Button FinalTestButton;
-        private System.Windows.Forms.Button RandomTestButton;
-        private System.Windows.Forms.Button Test9Button;
-        private System.Windows.Forms.Button Test8Button;
-        private System.Windows.Forms.Button Test7Button;
-        private System.Windows.Forms.Button Test6Button;
-        private System.Windows.Forms.Button Test5Button;
-        private System.Windows.Forms.Button Test4Button;
-        private System.Windows.Forms.Button Test3Button;
-        private System.Windows.Forms.Button Test2Button;
-        private System.Windows.Forms.Button Test1Button;
+        private System.Windows.Forms.Button Video9Button;
+        private System.Windows.Forms.Button Video8Button;
+        private System.Windows.Forms.Button Video7Button;
+        private System.Windows.Forms.Button Video6Button;
+        private System.Windows.Forms.Button Video5Button;
+        private System.Windows.Forms.Button Video4Button;
+        private System.Windows.Forms.Button Video3Button;
+        private System.Windows.Forms.Button Video2Button;
+        private System.Windows.Forms.Button Video1Button;
     }
 }

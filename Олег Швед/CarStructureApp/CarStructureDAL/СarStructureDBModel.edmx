@@ -9,8 +9,8 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" Nullable="false" />
-          <Property Name="Text" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Text" Type="nvarchar" MaxLength="500" Nullable="false" />
           <Property Name="IsCorrectAnswer" Type="bit" Nullable="false" />
           <Property Name="QuestionId" Type="int" Nullable="false" />
         </EntityType>
@@ -26,7 +26,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" Nullable="false" />
-          <Property Name="Text" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Text" Type="nvarchar" MaxLength="500" Nullable="false" />
           <Property Name="ChapterId" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="sysdiagrams">
@@ -43,10 +43,11 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="int" Nullable="false" />
-          <Property Name="Date" Type="date" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
           <Property Name="Mark" Type="int" Nullable="false" />
-          <Property Name="IsCompleted" Type="bit" Nullable="false" />
+          <Property Name="UserId" Type="int" Nullable="false" />
+          <Property Name="Chapter" Type="nvarchar" MaxLength="300" Nullable="false" />
         </EntityType>
         <EntityType Name="UserProfile">
           <Key>
@@ -86,6 +87,18 @@
             </Principal>
             <Dependent Role="Questions">
               <PropertyRef Name="ChapterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestResults_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="TestResults" Type="Self.TestResults" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TestResults">
+              <PropertyRef Name="UserId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -148,6 +161,10 @@
             <End Role="Chapters" EntitySet="Chapters" />
             <End Role="Questions" EntitySet="Questions" />
           </AssociationSet>
+          <AssociationSet Name="FK_TestResults_Users" Association="Self.FK_TestResults_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="TestResults" EntitySet="TestResults" />
+          </AssociationSet>
           <AssociationSet Name="FK_UserProfile_Users" Association="Self.FK_UserProfile_Users">
             <End Role="Users" EntitySet="Users" />
             <End Role="UserProfile" EntitySet="UserProfile" />
@@ -162,8 +179,8 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Text" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="IsCorrectAnswer" Type="Boolean" Nullable="false" />
           <Property Name="QuestionId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Question" Relationship="Self.FK_Answers_Questions" FromRole="Answers" ToRole="Questions" />
@@ -181,7 +198,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Text" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="ChapterId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Answers" Relationship="Self.FK_Answers_Questions" FromRole="Questions" ToRole="Answers" />
           <NavigationProperty Name="Chapter" Relationship="Self.FK_Questions_Chapters" FromRole="Questions" ToRole="Chapters" />
@@ -200,10 +217,12 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" />
-          <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="Mark" Type="Int32" Nullable="false" />
-          <Property Name="IsCompleted" Type="Boolean" Nullable="false" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <Property Name="Chapter" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="Self.FK_TestResults_Users" FromRole="TestResults" ToRole="Users" />
         </EntityType>
         <EntityType Name="UserProfile">
           <Key>
@@ -222,6 +241,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="TestResults" Relationship="Self.FK_TestResults_Users" FromRole="Users" ToRole="TestResults" />
           <NavigationProperty Name="UserProfile" Relationship="Self.FK_UserProfile_Users" FromRole="Users" ToRole="UserProfile" />
         </EntityType>
         <Association Name="FK_Answers_Questions">
@@ -245,6 +265,18 @@
             </Principal>
             <Dependent Role="Questions">
               <PropertyRef Name="ChapterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TestResults_Users">
+          <End Role="Users" Type="Self.User" Multiplicity="1" />
+          <End Role="TestResults" Type="Self.TestResult" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TestResults">
+              <PropertyRef Name="UserId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -275,6 +307,10 @@
           <AssociationSet Name="FK_Questions_Chapters" Association="Self.FK_Questions_Chapters">
             <End Role="Chapters" EntitySet="Chapters" />
             <End Role="Questions" EntitySet="Questions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TestResults_Users" Association="Self.FK_TestResults_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="TestResults" EntitySet="TestResults" />
           </AssociationSet>
           <AssociationSet Name="FK_UserProfile_Users" Association="Self.FK_UserProfile_Users">
             <End Role="Users" EntitySet="Users" />
@@ -372,7 +408,8 @@
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Date" ColumnName="Date" />
                 <ScalarProperty Name="Mark" ColumnName="Mark" />
-                <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Chapter" ColumnName="Chapter" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

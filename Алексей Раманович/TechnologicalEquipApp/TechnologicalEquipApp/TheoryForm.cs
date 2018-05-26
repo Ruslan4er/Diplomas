@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Printing;
 
 namespace TechnologicalEquipApp
 {
@@ -58,6 +61,16 @@ namespace TechnologicalEquipApp
             var frm = new UserProfileForm();
             frm.Show();
             this.Close();
+        }
+
+        private void PrintButton_Click(object sender, EventArgs e)
+        {
+
+            printDialog1.ShowDialog();
+            printDocument1.DocumentName = Application.StartupPath + "\\Content\\Theory\\book.pdf";
+            printDocument1.PrinterSettings = printDialog1.PrinterSettings;
+            printDocument1.PrinterSettings.PrintFileName = Application.StartupPath + "\\Content\\Theory\\book.pdf";
+            printDocument1.Print();
         }
     }
 }

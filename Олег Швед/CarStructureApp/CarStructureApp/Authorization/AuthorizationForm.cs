@@ -32,6 +32,16 @@ namespace CarStructureApp.Authorization
             }
         }
 
+        private static void RememberUser(User user)
+        {
+            UserData.Id = user.Id;
+            UserData.Login = user.Login;
+            UserData.Password = user.Login;
+            UserData.Name = user.UserProfile.Name;
+            UserData.SecondName = user.UserProfile.SecondName;
+            UserData.Groupe = user.UserProfile.Groupe;
+        }
+
         private void RegistrationLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             var frm = new RegistrationForm();
@@ -46,7 +56,13 @@ namespace CarStructureApp.Authorization
             using (var context = new СarStructureDBEntities())
             {
                 var user = context.Users.FirstOrDefault(u => u.Login == login);
-                return user != null && user.Password == password;
+                if (user != null && user.Password == password)
+                {
+                    RememberUser(user);
+                    return true;
+                }
+                return false;
+               
             }
         }
     }

@@ -97,9 +97,9 @@
             // 
             this.NextQuestionButton.BackColor = System.Drawing.Color.PowderBlue;
             this.NextQuestionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NextQuestionButton.Location = new System.Drawing.Point(403, 458);
+            this.NextQuestionButton.Location = new System.Drawing.Point(396, 437);
             this.NextQuestionButton.Name = "NextQuestionButton";
-            this.NextQuestionButton.Size = new System.Drawing.Size(164, 66);
+            this.NextQuestionButton.Size = new System.Drawing.Size(179, 74);
             this.NextQuestionButton.TabIndex = 6;
             this.NextQuestionButton.Text = "Вперед";
             this.NextQuestionButton.UseVisualStyleBackColor = false;
@@ -109,9 +109,9 @@
             // 
             this.HomeButton.BackColor = System.Drawing.Color.PowderBlue;
             this.HomeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.HomeButton.Location = new System.Drawing.Point(379, 559);
+            this.HomeButton.Location = new System.Drawing.Point(396, 550);
             this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Size = new System.Drawing.Size(220, 93);
+            this.HomeButton.Size = new System.Drawing.Size(179, 82);
             this.HomeButton.TabIndex = 7;
             this.HomeButton.Text = "В главное меню";
             this.HomeButton.UseVisualStyleBackColor = false;

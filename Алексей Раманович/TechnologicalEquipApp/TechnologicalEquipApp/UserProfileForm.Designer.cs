@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.CloseAppButton = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.OpenUserProfileButton = new System.Windows.Forms.Button();
             this.OpenTestsForm = new System.Windows.Forms.Button();
             this.OpenTheoryFormButton = new System.Windows.Forms.Button();
@@ -59,12 +60,10 @@
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.Controls.Add(this.label5);
-            this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             this.splitContainer1.Panel1.Controls.Add(this.CloseAppButton);
-            this.splitContainer1.Panel1.Controls.Add(this.button4);
             this.splitContainer1.Panel1.Controls.Add(this.OpenUserProfileButton);
             this.splitContainer1.Panel1.Controls.Add(this.OpenTestsForm);
             this.splitContainer1.Panel1.Controls.Add(this.OpenTheoryFormButton);
@@ -80,27 +79,17 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(756, 120);
+            this.label5.Location = new System.Drawing.Point(597, 120);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(73, 24);
             this.label5.TabIndex = 29;
             this.label5.Text = "Выход";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(589, 120);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 24);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "Печать";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(379, 120);
+            this.label3.Location = new System.Drawing.Point(372, 120);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(170, 24);
             this.label3.TabIndex = 27;
@@ -130,24 +119,13 @@
             // 
             this.CloseAppButton.BackgroundImage = global::TechnologicalEquipApp.Properties.Resources.power;
             this.CloseAppButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CloseAppButton.Location = new System.Drawing.Point(729, 11);
+            this.CloseAppButton.Location = new System.Drawing.Point(566, 11);
             this.CloseAppButton.Name = "CloseAppButton";
             this.CloseAppButton.Size = new System.Drawing.Size(126, 106);
             this.CloseAppButton.TabIndex = 24;
             this.CloseAppButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CloseAppButton.UseVisualStyleBackColor = true;
             this.CloseAppButton.Click += new System.EventHandler(this.CloseAppButton_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::TechnologicalEquipApp.Properties.Resources.печать;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(567, 11);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(126, 106);
-            this.button4.TabIndex = 23;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // OpenUserProfileButton
             // 
@@ -191,11 +169,35 @@
             this.TestResultGridView.AllowUserToDeleteRows = false;
             this.TestResultGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.TestResultGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.TestResultGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.TestResultGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TestResultGridView.DefaultCellStyle = dataGridViewCellStyle2;
             this.TestResultGridView.Location = new System.Drawing.Point(196, 38);
             this.TestResultGridView.Name = "TestResultGridView";
             this.TestResultGridView.ReadOnly = true;
-            this.TestResultGridView.Size = new System.Drawing.Size(539, 403);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.TestResultGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.TestResultGridView.Size = new System.Drawing.Size(633, 403);
             this.TestResultGridView.TabIndex = 0;
             // 
             // UserProfileForm
@@ -221,12 +223,10 @@
 
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button CloseAppButton;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button OpenUserProfileButton;
         private System.Windows.Forms.Button OpenTestsForm;
         private System.Windows.Forms.Button OpenTheoryFormButton;

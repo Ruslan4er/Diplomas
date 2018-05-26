@@ -66,6 +66,7 @@
             treeNode81,
             treeNode82,
             treeNode83});
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TheoryForm));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -73,13 +74,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.CloseAppButton = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.PrintButton = new System.Windows.Forms.Button();
             this.OpenUserProfileButton = new System.Windows.Forms.Button();
             this.OpenTestsForm = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.ContentTreeView = new System.Windows.Forms.TreeView();
             this.TheoryPdfViewer = new Telerik.WinControls.UI.RadPdfViewer();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -108,7 +112,7 @@
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             this.splitContainer1.Panel1.Controls.Add(this.CloseAppButton);
-            this.splitContainer1.Panel1.Controls.Add(this.button4);
+            this.splitContainer1.Panel1.Controls.Add(this.PrintButton);
             this.splitContainer1.Panel1.Controls.Add(this.OpenUserProfileButton);
             this.splitContainer1.Panel1.Controls.Add(this.OpenTestsForm);
             this.splitContainer1.Panel1.Controls.Add(this.button1);
@@ -184,16 +188,17 @@
             this.CloseAppButton.UseVisualStyleBackColor = true;
             this.CloseAppButton.Click += new System.EventHandler(this.CloseAppButton_Click);
             // 
-            // button4
+            // PrintButton
             // 
-            this.button4.BackgroundImage = global::TechnologicalEquipApp.Properties.Resources.печать;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(560, 11);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(126, 106);
-            this.button4.TabIndex = 3;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button4.UseVisualStyleBackColor = true;
+            this.PrintButton.BackgroundImage = global::TechnologicalEquipApp.Properties.Resources.печать;
+            this.PrintButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PrintButton.Location = new System.Drawing.Point(560, 11);
+            this.PrintButton.Name = "PrintButton";
+            this.PrintButton.Size = new System.Drawing.Size(126, 106);
+            this.PrintButton.TabIndex = 3;
+            this.PrintButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.PrintButton.UseVisualStyleBackColor = true;
+            this.PrintButton.Click += new System.EventHandler(this.PrintButton_Click);
             // 
             // OpenUserProfileButton
             // 
@@ -338,6 +343,20 @@
             this.TheoryPdfViewer.TabIndex = 0;
             this.TheoryPdfViewer.ThumbnailsScaleFactor = 0.15F;
             // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
             // TheoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -370,7 +389,7 @@
         private Telerik.WinControls.UI.RadPdfViewer TheoryPdfViewer;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button CloseAppButton;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button PrintButton;
         private System.Windows.Forms.Button OpenUserProfileButton;
         private System.Windows.Forms.Button OpenTestsForm;
         private System.Windows.Forms.Label label1;
@@ -378,5 +397,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

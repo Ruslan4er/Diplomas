@@ -40,10 +40,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(27, 57);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(19, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 18);
+            this.label1.Size = new System.Drawing.Size(61, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Логин";
             // 
@@ -58,10 +58,10 @@
             // RegistrationLinkLabel
             // 
             this.RegistrationLinkLabel.AutoSize = true;
-            this.RegistrationLinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RegistrationLinkLabel.Location = new System.Drawing.Point(91, 210);
+            this.RegistrationLinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RegistrationLinkLabel.Location = new System.Drawing.Point(73, 207);
             this.RegistrationLinkLabel.Name = "RegistrationLinkLabel";
-            this.RegistrationLinkLabel.Size = new System.Drawing.Size(95, 18);
+            this.RegistrationLinkLabel.Size = new System.Drawing.Size(111, 21);
             this.RegistrationLinkLabel.TabIndex = 4;
             this.RegistrationLinkLabel.TabStop = true;
             this.RegistrationLinkLabel.Text = "Регистрация";
@@ -69,8 +69,8 @@
             // 
             // AuthorizationButton
             // 
-            this.AuthorizationButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.AuthorizationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AuthorizationButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.AuthorizationButton.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AuthorizationButton.Location = new System.Drawing.Point(44, 143);
             this.AuthorizationButton.Name = "AuthorizationButton";
             this.AuthorizationButton.Size = new System.Drawing.Size(181, 55);
@@ -91,20 +91,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(27, 99);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(19, 101);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 18);
+            this.label2.Size = new System.Drawing.Size(69, 21);
             this.label2.TabIndex = 4;
             this.label2.Text = "Пароль";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(75, 16);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(50, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 20);
+            this.label3.Size = new System.Drawing.Size(154, 26);
             this.label3.TabIndex = 6;
             this.label3.Text = "Авторизация";
             // 
@@ -113,7 +113,7 @@
             this.AcceptButton = this.AuthorizationButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Honeydew;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(259, 237);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.PasswordTextBox);

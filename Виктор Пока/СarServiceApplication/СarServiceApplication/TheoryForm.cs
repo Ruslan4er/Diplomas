@@ -26,10 +26,9 @@ namespace СarServiceApplication
 
             splitContainer1.IsSplitterFixed = true;
             TheoryPdfViewer.EnableThumbnails = false;
-            if (chapterId == 1)
-            {
-                WatchVideoButton.Enabled = false;
-            }
+            if (chapterId != 1) return;
+            WatchVideoButton.Enabled = false;
+            TestButton.Enabled = false;
         }
 
         private void ShowPicture(string[] picturesPassArray)

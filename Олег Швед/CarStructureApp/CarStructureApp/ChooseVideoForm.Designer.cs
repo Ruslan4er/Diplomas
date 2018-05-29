@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ToMainMenuButton = new System.Windows.Forms.Button();
             this.Video9Button = new System.Windows.Forms.Button();
             this.Video8Button = new System.Windows.Forms.Button();
             this.Video7Button = new System.Windows.Forms.Button();
@@ -38,25 +37,16 @@
             this.Video3Button = new System.Windows.Forms.Button();
             this.Video2Button = new System.Windows.Forms.Button();
             this.Video1Button = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // ToMainMenuButton
-            // 
-            this.ToMainMenuButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.ToMainMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ToMainMenuButton.Location = new System.Drawing.Point(1, 147);
-            this.ToMainMenuButton.Name = "ToMainMenuButton";
-            this.ToMainMenuButton.Size = new System.Drawing.Size(194, 162);
-            this.ToMainMenuButton.TabIndex = 23;
-            this.ToMainMenuButton.Text = "В главное меню";
-            this.ToMainMenuButton.UseVisualStyleBackColor = false;
-            this.ToMainMenuButton.Click += new System.EventHandler(this.ToMainMenuButton_Click);
             // 
             // Video9Button
             // 
-            this.Video9Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video9Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video9Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video9Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video9Button.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video9Button.Location = new System.Drawing.Point(1000, 337);
             this.Video9Button.Name = "Video9Button";
             this.Video9Button.Size = new System.Drawing.Size(319, 152);
@@ -67,9 +57,9 @@
             // 
             // Video8Button
             // 
-            this.Video8Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video8Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video8Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video8Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video8Button.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video8Button.Location = new System.Drawing.Point(683, 337);
             this.Video8Button.Name = "Video8Button";
             this.Video8Button.Size = new System.Drawing.Size(319, 152);
@@ -80,9 +70,9 @@
             // 
             // Video7Button
             // 
-            this.Video7Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video7Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video7Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video7Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video7Button.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video7Button.Location = new System.Drawing.Point(364, 337);
             this.Video7Button.Name = "Video7Button";
             this.Video7Button.Size = new System.Drawing.Size(319, 152);
@@ -93,9 +83,9 @@
             // 
             // Video6Button
             // 
-            this.Video6Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video6Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video6Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video6Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video6Button.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video6Button.Location = new System.Drawing.Point(1000, 189);
             this.Video6Button.Name = "Video6Button";
             this.Video6Button.Size = new System.Drawing.Size(319, 152);
@@ -106,9 +96,9 @@
             // 
             // Video5Button
             // 
-            this.Video5Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video5Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video5Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video5Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video5Button.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video5Button.Location = new System.Drawing.Point(683, 189);
             this.Video5Button.Name = "Video5Button";
             this.Video5Button.Size = new System.Drawing.Size(319, 152);
@@ -119,9 +109,9 @@
             // 
             // Video4Button
             // 
-            this.Video4Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video4Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video4Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video4Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video4Button.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video4Button.Location = new System.Drawing.Point(364, 189);
             this.Video4Button.Name = "Video4Button";
             this.Video4Button.Size = new System.Drawing.Size(319, 152);
@@ -132,9 +122,9 @@
             // 
             // Video3Button
             // 
-            this.Video3Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video3Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video3Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video3Button.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video3Button.Location = new System.Drawing.Point(1000, 39);
             this.Video3Button.Name = "Video3Button";
             this.Video3Button.Size = new System.Drawing.Size(319, 152);
@@ -145,9 +135,9 @@
             // 
             // Video2Button
             // 
-            this.Video2Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video2Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video2Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video2Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video2Button.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video2Button.Location = new System.Drawing.Point(683, 39);
             this.Video2Button.Name = "Video2Button";
             this.Video2Button.Size = new System.Drawing.Size(319, 152);
@@ -158,9 +148,9 @@
             // 
             // Video1Button
             // 
-            this.Video1Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Video1Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Video1Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Video1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Video1Button.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Video1Button.Location = new System.Drawing.Point(364, 39);
             this.Video1Button.Name = "Video1Button";
             this.Video1Button.Size = new System.Drawing.Size(319, 152);
@@ -169,12 +159,35 @@
             this.Video1Button.UseVisualStyleBackColor = false;
             this.Video1Button.Click += new System.EventHandler(this.Video1Button_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CarStructureApp.Properties.Resources.RVzxz7thSTg;
+            this.pictureBox1.Location = new System.Drawing.Point(31, 169);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(170, 144);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 24;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(82, 326);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 24);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Домой";
+            // 
             // ChooseVideoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1320, 681);
-            this.Controls.Add(this.ToMainMenuButton);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Video9Button);
             this.Controls.Add(this.Video8Button);
             this.Controls.Add(this.Video7Button);
@@ -187,13 +200,13 @@
             this.Name = "ChooseVideoForm";
             this.Text = "ChooseVideoForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button ToMainMenuButton;
         private System.Windows.Forms.Button Video9Button;
         private System.Windows.Forms.Button Video8Button;
         private System.Windows.Forms.Button Video7Button;
@@ -203,5 +216,7 @@
         private System.Windows.Forms.Button Video3Button;
         private System.Windows.Forms.Button Video2Button;
         private System.Windows.Forms.Button Video1Button;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

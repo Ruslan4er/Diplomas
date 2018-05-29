@@ -61,22 +61,22 @@ namespace СarServiceApplication
 
         private void Chapter3LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowForm(TheoryContainer.ChaptersList[2], TheoryContainer.Pictures[2], 3);
+            ShowForm(TheoryContainer.ChaptersList[3], TheoryContainer.Pictures[3], 4);
         }
 
         private void Chapter4LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowForm(TheoryContainer.ChaptersList[3], TheoryContainer.Pictures[3], 4);
+            ShowForm(TheoryContainer.ChaptersList[1], TheoryContainer.Pictures[1], 2);
         }
 
         private void Chapter5LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowForm(TheoryContainer.ChaptersList[4], TheoryContainer.Pictures[4], 5);
+            ShowForm(TheoryContainer.ChaptersList[2], TheoryContainer.Pictures[2], 3);
         }
 
         private void Chapter6LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowForm(TheoryContainer.ChaptersList[5], TheoryContainer.Pictures[5], 6);
+            ShowForm(TheoryContainer.ChaptersList[7], TheoryContainer.Pictures[7], 8);
         }
 
         private void Chapter7LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -86,12 +86,12 @@ namespace СarServiceApplication
 
         private void Chapter8LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowForm(TheoryContainer.ChaptersList[7], TheoryContainer.Pictures[7], 8);
+            ShowForm(TheoryContainer.ChaptersList[4], TheoryContainer.Pictures[4], 5);
         }
 
         private void Chapter9LinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowForm(TheoryContainer.ChaptersList[8], TheoryContainer.Pictures[8], 9);
+            ShowForm(TheoryContainer.ChaptersList[5], TheoryContainer.Pictures[5], 6);
         }
 
         private void OpenTestForm(int chapterId)

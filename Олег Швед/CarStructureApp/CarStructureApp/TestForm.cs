@@ -82,11 +82,8 @@ namespace CarStructureApp
             if (_questionId == _questions.Count)
             {
                 NextQuestionButton.Enabled = false;
-                QuestionLabel.Text = $@"Правильных ответов - {_correctAnswers}";
-                Answer1RadioButton.Hide();
-                Answer2RadioButton.Hide();
-                Answer3RadioButton.Hide();
-
+                MessageBox.Show($@"Правильных ответов - {_correctAnswers}");
+                
                 if (isSaved)
                     SaveResult();
                 HomeButton.Show();

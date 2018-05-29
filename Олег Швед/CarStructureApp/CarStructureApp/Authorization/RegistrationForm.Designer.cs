@@ -48,97 +48,97 @@
             // LoginLabel
             // 
             this.LoginLabel.AutoSize = true;
-            this.LoginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LoginLabel.Location = new System.Drawing.Point(13, 96);
             this.LoginLabel.Name = "LoginLabel";
-            this.LoginLabel.Size = new System.Drawing.Size(55, 20);
+            this.LoginLabel.Size = new System.Drawing.Size(61, 21);
             this.LoginLabel.TabIndex = 0;
             this.LoginLabel.Text = "Логин";
             // 
             // LoginTextBox
             // 
-            this.LoginTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginTextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LoginTextBox.Location = new System.Drawing.Point(167, 93);
             this.LoginTextBox.Name = "LoginTextBox";
-            this.LoginTextBox.Size = new System.Drawing.Size(186, 26);
+            this.LoginTextBox.Size = new System.Drawing.Size(186, 29);
             this.LoginTextBox.TabIndex = 1;
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordTextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PasswordTextBox.Location = new System.Drawing.Point(167, 129);
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(186, 26);
+            this.PasswordTextBox.Size = new System.Drawing.Size(186, 29);
             this.PasswordTextBox.TabIndex = 2;
             // 
             // PasswordLabel
             // 
             this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PasswordLabel.Location = new System.Drawing.Point(13, 132);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(67, 20);
+            this.PasswordLabel.Size = new System.Drawing.Size(69, 21);
             this.PasswordLabel.TabIndex = 2;
             this.PasswordLabel.Text = "Пароль";
             // 
             // CheckPasswordTextBox
             // 
-            this.CheckPasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CheckPasswordTextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CheckPasswordTextBox.Location = new System.Drawing.Point(167, 164);
             this.CheckPasswordTextBox.Name = "CheckPasswordTextBox";
-            this.CheckPasswordTextBox.Size = new System.Drawing.Size(186, 26);
+            this.CheckPasswordTextBox.Size = new System.Drawing.Size(186, 29);
             this.CheckPasswordTextBox.TabIndex = 3;
             // 
             // CheckPasswordLabel
             // 
             this.CheckPasswordLabel.AutoSize = true;
-            this.CheckPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CheckPasswordLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CheckPasswordLabel.Location = new System.Drawing.Point(13, 167);
             this.CheckPasswordLabel.Name = "CheckPasswordLabel";
-            this.CheckPasswordLabel.Size = new System.Drawing.Size(152, 20);
+            this.CheckPasswordLabel.Size = new System.Drawing.Size(157, 21);
             this.CheckPasswordLabel.TabIndex = 4;
             this.CheckPasswordLabel.Text = "Повторите пароль";
             // 
             // NameTextBox
             // 
-            this.NameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameTextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NameTextBox.Location = new System.Drawing.Point(167, 200);
             this.NameTextBox.Name = "NameTextBox";
-            this.NameTextBox.Size = new System.Drawing.Size(186, 26);
+            this.NameTextBox.Size = new System.Drawing.Size(186, 29);
             this.NameTextBox.TabIndex = 4;
             // 
             // UserNameLabel
             // 
             this.UserNameLabel.AutoSize = true;
-            this.UserNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.UserNameLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.UserNameLabel.Location = new System.Drawing.Point(13, 203);
             this.UserNameLabel.Name = "UserNameLabel";
-            this.UserNameLabel.Size = new System.Drawing.Size(40, 20);
+            this.UserNameLabel.Size = new System.Drawing.Size(44, 21);
             this.UserNameLabel.TabIndex = 6;
             this.UserNameLabel.Text = "Имя";
             // 
             // SecondNameTextBox
             // 
-            this.SecondNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SecondNameTextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SecondNameTextBox.Location = new System.Drawing.Point(167, 235);
             this.SecondNameTextBox.Name = "SecondNameTextBox";
-            this.SecondNameTextBox.Size = new System.Drawing.Size(186, 26);
+            this.SecondNameTextBox.Size = new System.Drawing.Size(186, 29);
             this.SecondNameTextBox.TabIndex = 5;
             // 
             // SecondNameLabel
             // 
             this.SecondNameLabel.AutoSize = true;
-            this.SecondNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SecondNameLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SecondNameLabel.Location = new System.Drawing.Point(13, 238);
             this.SecondNameLabel.Name = "SecondNameLabel";
-            this.SecondNameLabel.Size = new System.Drawing.Size(81, 20);
+            this.SecondNameLabel.Size = new System.Drawing.Size(82, 21);
             this.SecondNameLabel.TabIndex = 8;
             this.SecondNameLabel.Text = "Фамилия";
             // 
             // RegistrationButton
             // 
-            this.RegistrationButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.RegistrationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RegistrationButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.RegistrationButton.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RegistrationButton.Location = new System.Drawing.Point(12, 322);
             this.RegistrationButton.Name = "RegistrationButton";
             this.RegistrationButton.Size = new System.Drawing.Size(209, 60);
@@ -149,9 +149,9 @@
             // 
             // ExitButton
             // 
-            this.ExitButton.BackColor = System.Drawing.Color.PowderBlue;
+            this.ExitButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ExitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitButton.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ExitButton.Location = new System.Drawing.Point(227, 322);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(141, 60);
@@ -162,29 +162,29 @@
             // 
             // GroupeTextBox
             // 
-            this.GroupeTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupeTextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.GroupeTextBox.Location = new System.Drawing.Point(167, 270);
             this.GroupeTextBox.Name = "GroupeTextBox";
-            this.GroupeTextBox.Size = new System.Drawing.Size(186, 26);
+            this.GroupeTextBox.Size = new System.Drawing.Size(186, 29);
             this.GroupeTextBox.TabIndex = 6;
             // 
             // GroupeLabel
             // 
             this.GroupeLabel.AutoSize = true;
-            this.GroupeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupeLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.GroupeLabel.Location = new System.Drawing.Point(13, 273);
             this.GroupeLabel.Name = "GroupeLabel";
-            this.GroupeLabel.Size = new System.Drawing.Size(61, 20);
+            this.GroupeLabel.Size = new System.Drawing.Size(67, 21);
             this.GroupeLabel.TabIndex = 12;
             this.GroupeLabel.Text = "Группа";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(62, 9);
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(74, 9);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(242, 50);
+            this.label7.Size = new System.Drawing.Size(234, 52);
             this.label7.TabIndex = 14;
             this.label7.Text = "Регистрация \r\nнового пользователя";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -194,7 +194,7 @@
             this.AcceptButton = this.RegistrationButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Honeydew;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.CancelButton = this.ExitButton;
             this.ClientSize = new System.Drawing.Size(375, 394);
             this.Controls.Add(this.label7);

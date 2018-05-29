@@ -202,7 +202,7 @@
             this.Chapter9LinkLabel.AutoSize = true;
             this.Chapter9LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter9LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter9LinkLabel.Location = new System.Drawing.Point(696, 457);
+            this.Chapter9LinkLabel.Location = new System.Drawing.Point(684, 533);
             this.Chapter9LinkLabel.Name = "Chapter9LinkLabel";
             this.Chapter9LinkLabel.Size = new System.Drawing.Size(323, 25);
             this.Chapter9LinkLabel.TabIndex = 27;
@@ -212,10 +212,9 @@
             // 
             // Chapter1LinkLabel
             // 
-            this.Chapter1LinkLabel.AutoSize = true;
             this.Chapter1LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter1LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter1LinkLabel.Location = new System.Drawing.Point(183, 111);
+            this.Chapter1LinkLabel.Location = new System.Drawing.Point(87, 113);
             this.Chapter1LinkLabel.Name = "Chapter1LinkLabel";
             this.Chapter1LinkLabel.Size = new System.Drawing.Size(98, 25);
             this.Chapter1LinkLabel.TabIndex = 18;
@@ -225,12 +224,11 @@
             // 
             // Chapter3LinkLabel
             // 
-            this.Chapter3LinkLabel.AutoSize = true;
             this.Chapter3LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter3LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter3LinkLabel.Location = new System.Drawing.Point(22, 512);
+            this.Chapter3LinkLabel.Location = new System.Drawing.Point(723, 120);
             this.Chapter3LinkLabel.Name = "Chapter3LinkLabel";
-            this.Chapter3LinkLabel.Size = new System.Drawing.Size(501, 25);
+            this.Chapter3LinkLabel.Size = new System.Drawing.Size(291, 95);
             this.Chapter3LinkLabel.TabIndex = 20;
             this.Chapter3LinkLabel.TabStop = true;
             this.Chapter3LinkLabel.Text = "Принцип работы двигателя внутреннего сгорания";
@@ -238,12 +236,11 @@
             // 
             // Chapter2LinkLabel
             // 
-            this.Chapter2LinkLabel.AutoSize = true;
             this.Chapter2LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter2LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter2LinkLabel.Location = new System.Drawing.Point(22, 473);
+            this.Chapter2LinkLabel.Location = new System.Drawing.Point(88, 142);
             this.Chapter2LinkLabel.Name = "Chapter2LinkLabel";
-            this.Chapter2LinkLabel.Size = new System.Drawing.Size(362, 25);
+            this.Chapter2LinkLabel.Size = new System.Drawing.Size(242, 73);
             this.Chapter2LinkLabel.TabIndex = 19;
             this.Chapter2LinkLabel.TabStop = true;
             this.Chapter2LinkLabel.Text = "Устройство двигателя автомобиля";
@@ -254,7 +251,7 @@
             this.Chapter8LinkLabel.AutoSize = true;
             this.Chapter8LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter8LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter8LinkLabel.Location = new System.Drawing.Point(696, 421);
+            this.Chapter8LinkLabel.Location = new System.Drawing.Point(684, 493);
             this.Chapter8LinkLabel.Name = "Chapter8LinkLabel";
             this.Chapter8LinkLabel.Size = new System.Drawing.Size(327, 25);
             this.Chapter8LinkLabel.TabIndex = 26;
@@ -267,7 +264,7 @@
             this.Chapter5LinkLabel.AutoSize = true;
             this.Chapter5LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter5LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter5LinkLabel.Location = new System.Drawing.Point(683, 55);
+            this.Chapter5LinkLabel.Location = new System.Drawing.Point(70, 539);
             this.Chapter5LinkLabel.Name = "Chapter5LinkLabel";
             this.Chapter5LinkLabel.Size = new System.Drawing.Size(340, 25);
             this.Chapter5LinkLabel.TabIndex = 22;
@@ -280,7 +277,7 @@
             this.Chapter4LinkLabel.AutoSize = true;
             this.Chapter4LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter4LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter4LinkLabel.Location = new System.Drawing.Point(22, 550);
+            this.Chapter4LinkLabel.Location = new System.Drawing.Point(70, 503);
             this.Chapter4LinkLabel.Name = "Chapter4LinkLabel";
             this.Chapter4LinkLabel.Size = new System.Drawing.Size(346, 25);
             this.Chapter4LinkLabel.TabIndex = 21;
@@ -293,7 +290,7 @@
             this.Chapter7LinkLabel.AutoSize = true;
             this.Chapter7LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter7LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter7LinkLabel.Location = new System.Drawing.Point(683, 136);
+            this.Chapter7LinkLabel.Location = new System.Drawing.Point(690, 458);
             this.Chapter7LinkLabel.Name = "Chapter7LinkLabel";
             this.Chapter7LinkLabel.Size = new System.Drawing.Size(324, 25);
             this.Chapter7LinkLabel.TabIndex = 25;
@@ -306,7 +303,7 @@
             this.Chapter6LinkLabel.AutoSize = true;
             this.Chapter6LinkLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Chapter6LinkLabel.LinkColor = System.Drawing.Color.MediumBlue;
-            this.Chapter6LinkLabel.Location = new System.Drawing.Point(683, 95);
+            this.Chapter6LinkLabel.Location = new System.Drawing.Point(732, 425);
             this.Chapter6LinkLabel.Name = "Chapter6LinkLabel";
             this.Chapter6LinkLabel.Size = new System.Drawing.Size(275, 25);
             this.Chapter6LinkLabel.TabIndex = 24;

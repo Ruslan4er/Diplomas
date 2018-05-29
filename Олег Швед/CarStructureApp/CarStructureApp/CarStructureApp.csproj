@@ -161,7 +161,6 @@
     <EmbeddedResource Include="TheoryForm.resx">
       <DependentUpon>TheoryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -229,6 +228,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\4-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f5ykqJOxbbw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hcwArMgEII8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnQCgA-cclA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OlO7YexTFQI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RVzxz7thSTg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SZkEmPOSbBM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yReJo-kT0v8.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

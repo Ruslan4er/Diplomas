@@ -17,34 +17,39 @@ namespace CarStructureApp
             InitializeComponent();
         }
 
-        private void OpenChaptersFormLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            var frm = new TheoryForm();
-            frm.ShowDialog();
-        }
-
-        private void OpenTestingFormLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            var frm = new TestingMenuForm(true);
-            frm.ShowDialog();
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
             var frm = new TestingMenuForm(false);
             frm.ShowDialog();
         }
 
-        private void OpenPersonalPageFormlinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            var frm = new TheoryForm();
+            frm.ShowDialog();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            var frm = new TestingMenuForm(true);
+            frm.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             var frm = new PersomalCabinetForm();
             frm.ShowDialog();
         }
 
-        private void OpenVideoFormLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             var frm = new ChooseVideoForm();
             frm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

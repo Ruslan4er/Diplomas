@@ -40,10 +40,10 @@
             // Answer1RadioButton
             // 
             this.Answer1RadioButton.AutoSize = true;
-            this.Answer1RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Answer1RadioButton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Answer1RadioButton.Location = new System.Drawing.Point(86, 294);
             this.Answer1RadioButton.Name = "Answer1RadioButton";
-            this.Answer1RadioButton.Size = new System.Drawing.Size(88, 24);
+            this.Answer1RadioButton.Size = new System.Drawing.Size(89, 25);
             this.Answer1RadioButton.TabIndex = 0;
             this.Answer1RadioButton.TabStop = true;
             this.Answer1RadioButton.Text = "Ответ 1";
@@ -52,20 +52,20 @@
             // QuestionLabel
             // 
             this.QuestionLabel.AutoSize = true;
-            this.QuestionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.QuestionLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.QuestionLabel.Location = new System.Drawing.Point(24, 229);
             this.QuestionLabel.Name = "QuestionLabel";
-            this.QuestionLabel.Size = new System.Drawing.Size(64, 20);
+            this.QuestionLabel.Size = new System.Drawing.Size(71, 21);
             this.QuestionLabel.TabIndex = 1;
             this.QuestionLabel.Text = "Вопрос";
             // 
             // Answer2RadioButton
             // 
             this.Answer2RadioButton.AutoSize = true;
-            this.Answer2RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Answer2RadioButton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Answer2RadioButton.Location = new System.Drawing.Point(86, 343);
             this.Answer2RadioButton.Name = "Answer2RadioButton";
-            this.Answer2RadioButton.Size = new System.Drawing.Size(88, 24);
+            this.Answer2RadioButton.Size = new System.Drawing.Size(89, 25);
             this.Answer2RadioButton.TabIndex = 2;
             this.Answer2RadioButton.TabStop = true;
             this.Answer2RadioButton.Text = "Ответ 2";
@@ -74,10 +74,10 @@
             // Answer3RadioButton
             // 
             this.Answer3RadioButton.AutoSize = true;
-            this.Answer3RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Answer3RadioButton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Answer3RadioButton.Location = new System.Drawing.Point(86, 393);
             this.Answer3RadioButton.Name = "Answer3RadioButton";
-            this.Answer3RadioButton.Size = new System.Drawing.Size(88, 24);
+            this.Answer3RadioButton.Size = new System.Drawing.Size(89, 25);
             this.Answer3RadioButton.TabIndex = 3;
             this.Answer3RadioButton.TabStop = true;
             this.Answer3RadioButton.Text = "Ответ 3";
@@ -86,17 +86,17 @@
             // QuestionCounterLabel
             // 
             this.QuestionCounterLabel.AutoSize = true;
-            this.QuestionCounterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.QuestionCounterLabel.Location = new System.Drawing.Point(374, 92);
+            this.QuestionCounterLabel.Font = new System.Drawing.Font("Times New Roman", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.QuestionCounterLabel.Location = new System.Drawing.Point(390, 83);
             this.QuestionCounterLabel.Name = "QuestionCounterLabel";
-            this.QuestionCounterLabel.Size = new System.Drawing.Size(183, 29);
+            this.QuestionCounterLabel.Size = new System.Drawing.Size(201, 33);
             this.QuestionCounterLabel.TabIndex = 5;
             this.QuestionCounterLabel.Text = "Вопрос 1 из 10";
             // 
             // NextQuestionButton
             // 
-            this.NextQuestionButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.NextQuestionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NextQuestionButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.NextQuestionButton.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NextQuestionButton.Location = new System.Drawing.Point(396, 437);
             this.NextQuestionButton.Name = "NextQuestionButton";
             this.NextQuestionButton.Size = new System.Drawing.Size(179, 74);
@@ -107,8 +107,8 @@
             // 
             // HomeButton
             // 
-            this.HomeButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.HomeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.HomeButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.HomeButton.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.HomeButton.Location = new System.Drawing.Point(396, 550);
             this.HomeButton.Name = "HomeButton";
             this.HomeButton.Size = new System.Drawing.Size(179, 82);
@@ -121,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Honeydew;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1350, 681);
             this.Controls.Add(this.HomeButton);
             this.Controls.Add(this.NextQuestionButton);

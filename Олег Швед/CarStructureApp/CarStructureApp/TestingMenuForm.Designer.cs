@@ -37,16 +37,18 @@
             this.Test9Button = new System.Windows.Forms.Button();
             this.Test8Button = new System.Windows.Forms.Button();
             this.Test7Button = new System.Windows.Forms.Button();
-            this.ToMainMenuButton = new System.Windows.Forms.Button();
             this.FinalTestButton = new System.Windows.Forms.Button();
             this.RandomTestButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Test1Button
             // 
-            this.Test1Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test1Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test1Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test1Button.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test1Button.Location = new System.Drawing.Point(375, 43);
             this.Test1Button.Name = "Test1Button";
             this.Test1Button.Size = new System.Drawing.Size(319, 152);
@@ -57,22 +59,22 @@
             // 
             // Test2Button
             // 
-            this.Test2Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test2Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test2Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test2Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test2Button.Font = new System.Drawing.Font("Times New Roman", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test2Button.Location = new System.Drawing.Point(694, 43);
             this.Test2Button.Name = "Test2Button";
             this.Test2Button.Size = new System.Drawing.Size(319, 152);
             this.Test2Button.TabIndex = 1;
-            this.Test2Button.Text = "КРИВОШИПНО-ШАТУННЫЙ \r\nМЕХАНИЗМ";
+            this.Test2Button.Text = "КРИВОШИПНО-ШАТУННЫЙ МЕХАНИЗМ";
             this.Test2Button.UseVisualStyleBackColor = false;
             this.Test2Button.Click += new System.EventHandler(this.Test2Button_Click);
             // 
             // Test3Button
             // 
-            this.Test3Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test3Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test3Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test3Button.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test3Button.Location = new System.Drawing.Point(1011, 43);
             this.Test3Button.Name = "Test3Button";
             this.Test3Button.Size = new System.Drawing.Size(319, 152);
@@ -83,9 +85,9 @@
             // 
             // Test6Button
             // 
-            this.Test6Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test6Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test6Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test6Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test6Button.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test6Button.Location = new System.Drawing.Point(1011, 193);
             this.Test6Button.Name = "Test6Button";
             this.Test6Button.Size = new System.Drawing.Size(319, 152);
@@ -96,9 +98,9 @@
             // 
             // Test5Button
             // 
-            this.Test5Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test5Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test5Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test5Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test5Button.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test5Button.Location = new System.Drawing.Point(694, 193);
             this.Test5Button.Name = "Test5Button";
             this.Test5Button.Size = new System.Drawing.Size(319, 152);
@@ -109,9 +111,9 @@
             // 
             // Test4Button
             // 
-            this.Test4Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test4Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test4Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test4Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test4Button.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test4Button.Location = new System.Drawing.Point(375, 193);
             this.Test4Button.Name = "Test4Button";
             this.Test4Button.Size = new System.Drawing.Size(319, 152);
@@ -122,9 +124,9 @@
             // 
             // Test9Button
             // 
-            this.Test9Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test9Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test9Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test9Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test9Button.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test9Button.Location = new System.Drawing.Point(1011, 341);
             this.Test9Button.Name = "Test9Button";
             this.Test9Button.Size = new System.Drawing.Size(319, 152);
@@ -135,9 +137,9 @@
             // 
             // Test8Button
             // 
-            this.Test8Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test8Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test8Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test8Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test8Button.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test8Button.Location = new System.Drawing.Point(694, 341);
             this.Test8Button.Name = "Test8Button";
             this.Test8Button.Size = new System.Drawing.Size(319, 152);
@@ -148,34 +150,22 @@
             // 
             // Test7Button
             // 
-            this.Test7Button.BackColor = System.Drawing.Color.PowderBlue;
+            this.Test7Button.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Test7Button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Test7Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Test7Button.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Test7Button.Location = new System.Drawing.Point(375, 341);
             this.Test7Button.Name = "Test7Button";
             this.Test7Button.Size = new System.Drawing.Size(319, 152);
             this.Test7Button.TabIndex = 6;
-            this.Test7Button.Text = "УСТРОЙСТВО СИСТЕМЫ \r\nПИТАНИЯ";
+            this.Test7Button.Text = "УСТРОЙСТВО СИСТЕМЫ ПИТАНИЯ";
             this.Test7Button.UseVisualStyleBackColor = false;
             this.Test7Button.Click += new System.EventHandler(this.Test7Button_Click);
             // 
-            // ToMainMenuButton
-            // 
-            this.ToMainMenuButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.ToMainMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ToMainMenuButton.Location = new System.Drawing.Point(12, 151);
-            this.ToMainMenuButton.Name = "ToMainMenuButton";
-            this.ToMainMenuButton.Size = new System.Drawing.Size(194, 162);
-            this.ToMainMenuButton.TabIndex = 11;
-            this.ToMainMenuButton.Text = "В главное меню";
-            this.ToMainMenuButton.UseVisualStyleBackColor = false;
-            this.ToMainMenuButton.Click += new System.EventHandler(this.ToMainMenuButton_Click);
-            // 
             // FinalTestButton
             // 
-            this.FinalTestButton.BackColor = System.Drawing.Color.PowderBlue;
+            this.FinalTestButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.FinalTestButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.FinalTestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FinalTestButton.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FinalTestButton.Location = new System.Drawing.Point(854, 493);
             this.FinalTestButton.Name = "FinalTestButton";
             this.FinalTestButton.Size = new System.Drawing.Size(319, 152);
@@ -186,9 +176,9 @@
             // 
             // RandomTestButton
             // 
-            this.RandomTestButton.BackColor = System.Drawing.Color.PowderBlue;
+            this.RandomTestButton.BackColor = System.Drawing.Color.WhiteSmoke;
             this.RandomTestButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.RandomTestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RandomTestButton.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RandomTestButton.Location = new System.Drawing.Point(542, 493);
             this.RandomTestButton.Name = "RandomTestButton";
             this.RandomTestButton.Size = new System.Drawing.Size(319, 152);
@@ -197,13 +187,35 @@
             this.RandomTestButton.UseVisualStyleBackColor = false;
             this.RandomTestButton.Click += new System.EventHandler(this.RandomTestButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(72, 333);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 24);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Домой";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CarStructureApp.Properties.Resources.RVzxz7thSTg;
+            this.pictureBox1.Location = new System.Drawing.Point(21, 176);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(170, 144);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // TestingMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(1350, 681);
-            this.Controls.Add(this.ToMainMenuButton);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.FinalTestButton);
             this.Controls.Add(this.RandomTestButton);
             this.Controls.Add(this.Test9Button);
@@ -221,7 +233,9 @@
             this.Name = "TestingMenuForm";
             this.Text = "TestingForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -236,8 +250,9 @@
         private System.Windows.Forms.Button Test9Button;
         private System.Windows.Forms.Button Test8Button;
         private System.Windows.Forms.Button Test7Button;
-        private System.Windows.Forms.Button ToMainMenuButton;
         private System.Windows.Forms.Button FinalTestButton;
         private System.Windows.Forms.Button RandomTestButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

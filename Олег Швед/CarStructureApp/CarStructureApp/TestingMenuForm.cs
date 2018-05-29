@@ -79,5 +79,10 @@ namespace CarStructureApp
         {
             OpenTestForm(10, FinalTestButton.Text);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

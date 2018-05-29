@@ -58,7 +58,7 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Honeydew;
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Lavender;
             this.splitContainer1.Panel1.Controls.Add(this.ExitToMainManuButton);
             this.splitContainer1.Panel1.Controls.Add(this.Topic6LinkLabel);
             this.splitContainer1.Panel1.Controls.Add(this.Topic5LinkLabel);
@@ -82,8 +82,8 @@
             // 
             // ExitToMainManuButton
             // 
-            this.ExitToMainManuButton.BackColor = System.Drawing.Color.PowderBlue;
-            this.ExitToMainManuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitToMainManuButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ExitToMainManuButton.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ExitToMainManuButton.Location = new System.Drawing.Point(65, 603);
             this.ExitToMainManuButton.Name = "ExitToMainManuButton";
             this.ExitToMainManuButton.Size = new System.Drawing.Size(248, 66);
@@ -94,8 +94,9 @@
             // 
             // Topic6LinkLabel
             // 
-            this.Topic6LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Topic6LinkLabel.Location = new System.Drawing.Point(12, 332);
+            this.Topic6LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic6LinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.Topic6LinkLabel.Location = new System.Drawing.Point(12, 288);
             this.Topic6LinkLabel.Name = "Topic6LinkLabel";
             this.Topic6LinkLabel.Size = new System.Drawing.Size(360, 40);
             this.Topic6LinkLabel.TabIndex = 20;
@@ -106,8 +107,9 @@
             // 
             // Topic5LinkLabel
             // 
-            this.Topic5LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Topic5LinkLabel.Location = new System.Drawing.Point(12, 297);
+            this.Topic5LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic5LinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.Topic5LinkLabel.Location = new System.Drawing.Point(12, 255);
             this.Topic5LinkLabel.Name = "Topic5LinkLabel";
             this.Topic5LinkLabel.Size = new System.Drawing.Size(364, 20);
             this.Topic5LinkLabel.TabIndex = 19;
@@ -118,8 +120,9 @@
             // 
             // Topic4LinkLabel
             // 
-            this.Topic4LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Topic4LinkLabel.Location = new System.Drawing.Point(12, 256);
+            this.Topic4LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic4LinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.Topic4LinkLabel.Location = new System.Drawing.Point(12, 218);
             this.Topic4LinkLabel.Name = "Topic4LinkLabel";
             this.Topic4LinkLabel.Size = new System.Drawing.Size(322, 20);
             this.Topic4LinkLabel.TabIndex = 18;
@@ -130,8 +133,9 @@
             // 
             // Topic9LinkLabel
             // 
-            this.Topic9LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Topic9LinkLabel.Location = new System.Drawing.Point(12, 539);
+            this.Topic9LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic9LinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.Topic9LinkLabel.Location = new System.Drawing.Point(15, 489);
             this.Topic9LinkLabel.Name = "Topic9LinkLabel";
             this.Topic9LinkLabel.Size = new System.Drawing.Size(282, 40);
             this.Topic9LinkLabel.TabIndex = 17;
@@ -142,8 +146,9 @@
             // 
             // Topic8LinkLabel
             // 
-            this.Topic8LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Topic8LinkLabel.Location = new System.Drawing.Point(12, 485);
+            this.Topic8LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic8LinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.Topic8LinkLabel.Location = new System.Drawing.Point(12, 449);
             this.Topic8LinkLabel.Name = "Topic8LinkLabel";
             this.Topic8LinkLabel.Size = new System.Drawing.Size(320, 40);
             this.Topic8LinkLabel.TabIndex = 16;
@@ -154,8 +159,9 @@
             // 
             // Topic7LinkLabel
             // 
-            this.Topic7LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Topic7LinkLabel.Location = new System.Drawing.Point(12, 432);
+            this.Topic7LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic7LinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.Topic7LinkLabel.Location = new System.Drawing.Point(15, 409);
             this.Topic7LinkLabel.Name = "Topic7LinkLabel";
             this.Topic7LinkLabel.Size = new System.Drawing.Size(319, 40);
             this.Topic7LinkLabel.TabIndex = 15;
@@ -166,8 +172,9 @@
             // 
             // Topic3LinkLabel
             // 
-            this.Topic3LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Topic3LinkLabel.Location = new System.Drawing.Point(12, 195);
+            this.Topic3LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic3LinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.Topic3LinkLabel.Location = new System.Drawing.Point(12, 178);
             this.Topic3LinkLabel.Name = "Topic3LinkLabel";
             this.Topic3LinkLabel.Size = new System.Drawing.Size(363, 40);
             this.Topic3LinkLabel.TabIndex = 14;
@@ -178,7 +185,8 @@
             // 
             // Topic2LinkLabel
             // 
-            this.Topic2LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic2LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic2LinkLabel.LinkColor = System.Drawing.Color.Black;
             this.Topic2LinkLabel.Location = new System.Drawing.Point(12, 138);
             this.Topic2LinkLabel.Name = "Topic2LinkLabel";
             this.Topic2LinkLabel.Size = new System.Drawing.Size(340, 40);
@@ -190,8 +198,9 @@
             // 
             // Topic1LinkLabel
             // 
-            this.Topic1LinkLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Topic1LinkLabel.Location = new System.Drawing.Point(12, 88);
+            this.Topic1LinkLabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Topic1LinkLabel.LinkColor = System.Drawing.Color.Black;
+            this.Topic1LinkLabel.Location = new System.Drawing.Point(12, 98);
             this.Topic1LinkLabel.Name = "Topic1LinkLabel";
             this.Topic1LinkLabel.Size = new System.Drawing.Size(354, 40);
             this.Topic1LinkLabel.TabIndex = 12;
@@ -203,30 +212,30 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(133, 396);
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(126, 340);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 24);
+            this.label6.Size = new System.Drawing.Size(92, 24);
             this.label6.TabIndex = 11;
             this.label6.Text = "Раздел 2";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(133, 53);
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(119, 54);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 24);
+            this.label5.Size = new System.Drawing.Size(92, 24);
             this.label5.TabIndex = 10;
             this.label5.Text = "Раздел 1";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(125, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 29);
+            this.label1.Size = new System.Drawing.Size(86, 28);
             this.label1.TabIndex = 9;
             this.label1.Text = "Теория";
             // 

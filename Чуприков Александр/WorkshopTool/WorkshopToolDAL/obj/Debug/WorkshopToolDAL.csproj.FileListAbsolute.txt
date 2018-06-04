@@ -1,0 +1,11 @@
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\bin\Debug\WorkshopToolDAL.dll.config
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\bin\Debug\WorkshopToolDAL.dll
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\bin\Debug\WorkshopToolDAL.pdb
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\bin\Debug\EntityFramework.dll
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\bin\Debug\EntityFramework.xml
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\obj\Debug\WorkshopToolDAL.csprojResolveAssemblyReference.cache
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\obj\Debug\WorkshopToolDAL.csproj.CoreCompileInputs.cache
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\obj\Debug\WorkshopToolDAL.dll
+D:\Дипломы(работа)\Diplomas\Чуприков Александр\WorkshopTool\WorkshopToolDAL\obj\Debug\WorkshopToolDAL.pdb
